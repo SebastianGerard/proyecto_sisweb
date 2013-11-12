@@ -1,0 +1,815 @@
+2013-11-12 16:04:50 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /miproyecto/view/index
+Stack Trace:
+#0 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 16:05:05 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /miproyecto/index
+Stack Trace:
+#0 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 16:05:32 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 16:06:41 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:08:18 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:08:20 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:08:21 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:08:21 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:08:22 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:08:22 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:08:42 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:10:04 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:09 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:21 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:24 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:25 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:25 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:25 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:26 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:26 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:26 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:26 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:27 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:27 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:27 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:27 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:27 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:28 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:28 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:28 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:28 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:28 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:29 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:29 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:29 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:29 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:29 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:30 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:30 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:14:30 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:23:03 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:23:08 Error: [MissingControllerException] Controller class LolzController could not be found.
+Exception Attributes: array (
+  'class' => 'LolzController',
+  'plugin' => NULL,
+)
+Request URL: /miproyecto/lolz
+Stack Trace:
+#0 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 16:23:18 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:24:45 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-12 16:37:54 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /miproyecto/posts
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\ConnectionManager.php(93): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\cake\lib\Cake\Model\Model.php(3454): ConnectionManager::getDataSource('default')
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(1124): Model->setDataSource('default')
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('posts')
+#4 C:\wamp\cake\lib\Cake\Model\Model.php(2880): Model->getDataSource()
+#5 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\miproyecto\Controller\PostsController.php(5): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\miproyecto\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

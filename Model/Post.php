@@ -1,0 +1,2 @@
+<?phpclass Post extends AppModel {
+}?>
