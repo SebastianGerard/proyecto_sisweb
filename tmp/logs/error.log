@@ -1,0 +1,9 @@
+2013-11-12 17:09:15 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/posts
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

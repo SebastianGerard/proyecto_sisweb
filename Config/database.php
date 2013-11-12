@@ -1,7 +1,7 @@
 <?php
 class DATABASE_CONFIG {
 
-	public $Proyecto2 = array(
+	public $default = array(
 		'datasource' => 'Database/mysql',
 		'persistent' => true,
 		'host' => 'localhost',
