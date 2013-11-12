@@ -16,8 +16,16 @@
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
-		echo $this->Html->script('bootstrap',array('inline' => false));
-    echo $this->Html->script('bootstrapmin',array('inline' => false));
+	echo $this->Html->css('bootstrap.min');
+			echo $this->Html->css('main');
+
+		
+			
+			echo $this->Html->script('jquery-1.10.2.min');
+			echo $this->Html->script('bootstrap.min');
+			
+		
+    
     echo $this->Html->css('cake.generic');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

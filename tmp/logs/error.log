@@ -950,3 +950,102 @@ Request URL: /proyecto_sisweb/js/bootstrapasp.js
 Stack Trace:
 #0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-11-12 19:42:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:42:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:42:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:42:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:42:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:45:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:45:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:45:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:45:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:45:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-12 19:45:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
