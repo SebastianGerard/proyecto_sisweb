@@ -27,8 +27,7 @@ class UsersController extends AppController {
     }
     public function active_account($id=null)
     {
-     $id=$this->decodeString($id);
-     $user=$this->User->find('first', array('conditions' => array('User.id' => $id)));
+     $user=$this->User->find('first', array('conditions' => array('User.id' => $id,'User.status'=>'0')));
      if($user!=null)
      {
      $this->User->updateAll(array("status"=>"1"),array("id"=>$id));
@@ -56,7 +55,7 @@ class UsersController extends AppController {
     
 
     public function send_mail($receiver = null, $name = null, $id = null) {
-        $confirmation_link = "http://" . $_SERVER['HTTP_HOST'] . $this->webroot . "users/active_account/".$this->encodeString($id);
+        $confirmation_link = "http://" . $_SERVER['HTTP_HOST'] . $this->webroot . "users/active_account/".($id);
         $message = 'Hi,' . $name . ' ';
         App::uses('CakeEmail', 'Network/Email');
         $email = new CakeEmail('gmail');
