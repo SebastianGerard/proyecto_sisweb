@@ -1,10 +1,13 @@
 <?php
 class UsersController extends AppController {
 
-    public function beforeFilter() {
-        parent::beforeFilter();
-        $this->Auth->allow('register');
-    }
+    var $name = "Users"; 
+    var $helpers = array('Html', 'Form'); 
+    
+    function index() 
+    { 
+        
+    } 
 
     public function register() {
         if($this->request->is('post'))
@@ -18,26 +21,56 @@ class UsersController extends AppController {
                 $this->send_mail($this->request->data['User']['email'],$this->request->data['User']['name'],$this->request->data['User']['id']);
                 $this->redirect(array('action'=>'index'));
             }
-           
-                
         }
         else
         $this->set('register');
     }
 
     public function login() {
-        if ($this->request->is('post')) {
-            if ($this->Auth->login()) {
-                return $this->redirect($this->Auth->redirect());
-            }
-            $this->Session->setFlash(__('Invalid username or password, try again'));
+        if(empty($this->data) == false) 
+        { 
+            if(($user = $this->User->validateLogin($this->data['User'])) == true) 
+            { 
+                
+                foreach ($user as $i => $value) {
+                    echo $i." -> ";
+                    foreach ($value as $key => $value) {
+                        echo $key." -> ";
+                        foreach ($value as $key2 => $value2) {
+                            echo $key." -> ".$value2;
+                        }
+                    }
+                }
+                $this->Session->write('User', $user[0]); 
+                $this->Session->setFlash('You\'ve successfully logged in.'); 
+                
+            } 
+            else 
+            { 
+                $this->Session->setFlash('Sorry, the information you\'ve entered is incorrect.'); 
+                 
+            } 
         }
     }
 
-    public function logout() {
-        return $this->redirect($this->Auth->logout());
-    }
-    
+    function logout() 
+    { 
+        $this->Session->destroy('user'); 
+        $this->Session->setFlash('You\'ve successfully logged out.'); 
+        $this->redirect('login'); 
+    } 
+
+    function __validateLoginStatus() 
+    { 
+        if($this->action != 'login' && $this->action != 'logout') 
+        { 
+            if($this->Session->check('User') == false) 
+            { 
+                $this->redirect('login'); 
+                $this->Session->setFlash('The URL you\'ve followed requires you login.'); 
+            } 
+        } 
+    } 
 
     public function send_mail($receiver = null, $name = null, $id = null) {
         $confirmation_link = "http://" . $_SERVER['HTTP_HOST'] . $this->webroot . "users/active_account/".$this->encodeString($id);
