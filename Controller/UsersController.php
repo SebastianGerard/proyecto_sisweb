@@ -46,18 +46,10 @@ class UsersController extends AppController {
             if(($user = $this->User->validateLogin($this->data['User'])) == true) 
             { 
                 
-                foreach ($user as $i => $value) {
-                    echo $i." -> ";
-                    foreach ($value as $key => $value) {
-                        echo $key." -> ";
-                        foreach ($value as $key2 => $value2) {
-                            echo $key." -> ".$value2;
-                        }
-                    }
-                }
                 $this->Session->write('User', $user[0]); 
                 $this->Session->setFlash('You\'ve successfully logged in.'); 
                 
+                $this->redirect('/pages/home_login');
             } 
             else 
             { 

@@ -10,6 +10,7 @@
 
 ?>
 <!DOCTYPE html>
+
 <html>
 <head>
 	<title>
@@ -49,8 +50,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/proyecto_sisweb/users/login">Log In</a></li>
-            <li><a href="/proyecto_sisweb/users/register">Register</a></li>
+            <li class="active"><a href="/proyecto_sisweb/users/logout">Log Out</a></li>
             
           </ul>
           

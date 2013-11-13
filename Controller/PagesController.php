@@ -66,6 +66,6 @@ class PagesController extends AppController {
 			}
 			throw new NotFoundException();
 		}
-		$this->layout = 'test.ctp';
+		$this->layout = 'login.ctp';
 	}
 }
