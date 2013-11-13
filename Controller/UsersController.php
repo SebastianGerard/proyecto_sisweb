@@ -4,6 +4,7 @@ class UsersController extends AppController {
     public function beforeFilter() {
         parent::beforeFilter();
         $this->Auth->allow('register');
+        $this->Auth->allow('active_account');
     }
 
     public function register() {
@@ -13,9 +14,9 @@ class UsersController extends AppController {
             $this->User->set($this->data);
             if($this->User->save($this->request->data))
             { 
-                $this->Session->setFlash(__('User saved'));
+                $this->Session->setFlash(__(' User saved'));
                 App::uses('CakeEmail','Network/Email'); 
-                $this->send_mail($this->request->data['User']['email'],$this->request->data['User']['name'],$this->request->data['User']['id']);
+                $this->send_mail($this->request->data['User']['email'],$test['name'],$this->User->getLastInsertId());
                 $this->redirect(array('action'=>'index'));
             }
            
@@ -24,7 +25,22 @@ class UsersController extends AppController {
         else
         $this->set('register');
     }
+    public function active_account($id=null)
+    {
+     $id=$this->decodeString($id);
+     $user=$this->User->find('first', array('conditions' => array('User.id' => $id)));
+     if($user!=null)
+     {
+     $this->User->updateAll(array("status"=>"1"),array("id"=>$id));
+     $message="cuenta activada";
+      }  
+     else
+     $message="ERROR";
+    
+      
+     $this->set('message',$message);   
 
+    }
     public function login() {
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
@@ -50,17 +66,13 @@ class UsersController extends AppController {
         $email->send($message . " " . $confirmation_link);
     }
     public function encodeString($str){
-      for($i=0; $i<5;$i++)
-      {
-        $str=strrev(base64_encode($str)); //apply base64 first and then reverse the string
-      }
+      
+        $str=(base64_encode($str)); //apply base64 first and then reverse the string
+      
       return $str;
     }
     public function decodeString($str){
-     for($i=0; $i<5;$i++)
-     {
-        $str=base64_decode(strrev($str)); //apply base64 first and then reverse the string}
-     }
+        $str=base64_decode($str); //apply base64 first and then reverse the string}
      return $str;
     }
 }
