@@ -51,7 +51,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="/proyecto_sisweb/users/login">Log In</a></li>
             <li><a href="/proyecto_sisweb/users/register">Register</a></li>
-            
+            <li><a href="/proyecto_sisweb/rooms/register">Register room</a></li>
           </ul>
           
         </div><!--/.nav-collapse -->
