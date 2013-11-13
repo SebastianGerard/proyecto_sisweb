@@ -3,12 +3,18 @@
 
     public $helpers = array('Html', 'Form');
     public function registrar() {
+  
         if($this->request->is('post'))
         {
             $this->Usuario->create();
-            $this->Usuario->save($this->request->data);
-            $this->Session->setFlash(__('Usuario guardado'));
-            $this->redirect(array('action'=>'index'));
+            $this->Usuario->set($this->data);
+            if($this->Usuario->save($this->request->data))
+            { 
+                $this->Session->setFlash(__('Usuario guardado'));
+                $this->redirect(array('action'=>'index'));
+            }
+           
+                
         }
         else
         $this->set('registrar');

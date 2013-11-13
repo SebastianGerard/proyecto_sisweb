@@ -18,8 +18,10 @@ CREATE TABLE usuarios (
     direccion VARCHAR(50) NOT NULL,
     pais VARCHAR(50) NOT NULL,
     ciudad VARCHAR(50) NOT NULL,
-    telefono VARCHAR(50) NULL,
-    celular VARCHAR(50) NOT NULL,
+    telefono VARCHAR(7) NULL,
+    celular VARCHAR(8) NOT NULL,
+    nickname VARCHAR(30) NOT NULL,
+    password VARCHAR(30) NOT NULL,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
