@@ -10,18 +10,19 @@ CREATE TABLE posts (
     modified DATETIME DEFAULT NULL
 );
 
-CREATE TABLE usuarios (
+CREATE TABLE users (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL,
-    apellido VARCHAR(50) NOT NULL,
-    correo VARCHAR(50) NOT NULL,
-    direccion VARCHAR(50) NOT NULL,
-    pais VARCHAR(50) NOT NULL,
-    ciudad VARCHAR(50) NOT NULL,
-    telefono VARCHAR(7) NULL,
-    celular VARCHAR(8) NOT NULL,
-    nickname VARCHAR(30) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    address VARCHAR(50) NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    city VARCHAR(50) NOT NULL,
+    phone VARCHAR(7) NULL,
+    cellphone VARCHAR(8) NOT NULL,
+    username VARCHAR(30) NOT NULL,
     password VARCHAR(30) NOT NULL,
+    status bit NOT NULL,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
@@ -34,3 +35,5 @@ INSERT INTO posts (title,body,created)
     VALUES ('A title once again', 'And the post body follows.', NOW());
 INSERT INTO posts (title,body,created)
     VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
+INSERT INTO usuarios (name,lastname,email,address,country,city,phone,cellphone,username,password,status,created)
+    VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito','pedrito','1', NOW());
