@@ -35,7 +35,19 @@
 	?>
 </head>
 <body>
-
+<?php
+header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+?>
+	<?php 
+	$user = $this->Session->read('User');
+	if(!isset($user))
+	{
+			header('Location: /proyecto_sisweb/users/login');
+			exit();
+	}
+	
+	?>
 	<div id="container">
 		<div id="header">
 			<div class="navbar navbar-inverse" role="navigation">
@@ -51,7 +63,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/proyecto_sisweb/users/logout">Log Out</a></li>
-            
+            <li class="active"><a href="/proyecto_sisweb/users">Users</a></li>
           </ul>
           
         </div><!--/.nav-collapse -->
