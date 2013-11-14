@@ -18,24 +18,22 @@ echo $this->Form->input('type',array('readonly'=>'true','value'=>$data['room']['
 
 echo $this->Html->link("add/remove image","add/".$data['id']);
 echo "<br>";
-
+echo $this->Html->link("add/remove accessories","addAccesories/".$data['id']);
+echo "<br>";
 
 
 
  foreach ($data['images'] as $image)
  {
 	echo  '<a data-toggle="modal" href="#room'.$image['RoomImage']['id'].'" ><img src="data:image/jpeg;base64,' . ($image['RoomImage']['image']) . '" width="100" height="100"></a>';
-	echo '<form class="form-horizontal" role="form" action="/usuarios/update_user/" method="post">
-              <div class="modal fade" id="room'.$image['RoomImage']['id'].'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	echo '<div class="modal fade" id="room'.$image['RoomImage']['id'].'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                    		<img src="data:image/jpeg;base64,' . ($image['RoomImage']['image']) . '">
+                    		<img src="data:image/jpeg;base64,' . ($image['RoomImage']['image']) . '" width=600>
 
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->
-              </div><!-- /.modal -->
-            </form>
-';
+              </div><!-- /.modal -->';
  }
 ?>
 <br>
