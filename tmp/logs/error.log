@@ -20217,3 +20217,1900 @@ Request URL: /proyecto_sisweb/css/main.css
 Stack Trace:
 #0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-11-14 17:07:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:07:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:07:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:07:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:07:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:07:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:08:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:35:57 Error: Fatal Error (4): syntax error, unexpected '$data' (T_VARIABLE) in [C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php, line 51]
+2013-11-14 17:35:57 Error: [FatalErrorException] syntax error, unexpected '$data' (T_VARIABLE)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:35:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:35:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:36:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:36:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:38:06 Error: Fatal Error (4): syntax error, unexpected '$data' (T_VARIABLE) in [C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php, line 51]
+2013-11-14 17:38:06 Error: [FatalErrorException] syntax error, unexpected '$data' (T_VARIABLE)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:38:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:38:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:38:24 Error: Fatal Error (4): syntax error, unexpected '$data' (T_VARIABLE) in [C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php, line 51]
+2013-11-14 17:38:24 Error: [FatalErrorException] syntax error, unexpected '$data' (T_VARIABLE)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:38:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:38:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:43:50 Error: Fatal Error (4): syntax error, unexpected '$data' (T_VARIABLE) in [C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php, line 51]
+2013-11-14 17:43:50 Error: [FatalErrorException] syntax error, unexpected '$data' (T_VARIABLE)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 51, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:43:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:43:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:44:06 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(50): Model->find('all', Array)
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:44:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:44:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:44:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:44:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:45:38 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(50): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:45:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:45:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:46:30 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(51): Model->find('all', Array)
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:46:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:46:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:46:34 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(51): Model->find('all', Array)
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:46:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:46:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:46:44 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(51): Model->find('all', Array)
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:46:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:46:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:47:02 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php, line 50]
+2013-11-14 17:47:02 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\pro...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\pro...', 50, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\pro...', 50, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:47:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:47:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:47:20 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(51): Model->find('all', Array)
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:47:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:47:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:47:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:47:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:48:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:48:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:49:15 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(51): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:49:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:49:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:49:59 Error: Fatal Error (1): Using $this when not in object context in [C:\wamp\cake\lib\Cake\Controller\Controller.php, line 729]
+2013-11-14 17:49:59 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'C:\wamp\cake\li...', 729)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'C:\wamp\cake\li...', 729, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'C:\wamp\cake\li...', 729, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:49:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:49:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:50:07 Error: Fatal Error (1): Using $this when not in object context in [C:\wamp\cake\lib\Cake\Controller\Controller.php, line 729]
+2013-11-14 17:50:07 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'C:\wamp\cake\li...', 729)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'C:\wamp\cake\li...', 729, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'C:\wamp\cake\li...', 729, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:50:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:50:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:50:29 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(51): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:50:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:50:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:51:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:51:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:51:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:51:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:51:24 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(46): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:51:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:51:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:52:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:52:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:52:41 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(46): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:52:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:52:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:54:14 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(46): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:54:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:54:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:54:30 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(46): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:54:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:54:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:54:53 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Model\Model.php(3476): Model->setSource('categories')
+#1 C:\wamp\cake\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cake\lib\Cake\Model\Model.php(2880): DboSource->read(Object(RoomImage), Array)
+#3 C:\wamp\cake\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#4 C:\wamp\www\proyecto_sisweb\Controller\RoomsController.php(53): Model->find('all')
+#5 [internal function]: RoomsController->add('4')
+#6 C:\wamp\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#7 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-14 17:54:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:54:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:55:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:55:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:56:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 17:56:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:05:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:05:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:06:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:07:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:08:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:08:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:08:20 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:11:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:11:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:11:56 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:12:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:12:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:12:32 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:13:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:13:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:13:11 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:13:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:13:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:13:23 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:14:03 Error: Fatal Error (4): syntax error, unexpected 'header' (T_STRING), expecting ',' or ';' in [C:\wamp\www\proyecto_sisweb\View\Rooms\add.ctp, line 22]
+2013-11-14 18:14:03 Error: [FatalErrorException] syntax error, unexpected 'header' (T_STRING), expecting ',' or ';'
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 22, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 22, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 18:14:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:14:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:14:19 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:35 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:49 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:15:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:16:00 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:16:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:16:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:16:11 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:16:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:16:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:16:49 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:17:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:17:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:17:37 Error: [MissingControllerException] Controller class 9jController could not be found.
+Exception Attributes: array (
+  'class' => '9jController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAChAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4%2BTl5ufo6erx8vP09fb3%2BPn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3%2BPn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKpeJfEuneDPDmoaxrGoWWk6RpNtJeX19eTrBbWcEal5JZJHIVEVQWZmIAAJJAFDY4xbdktS7RX84v/BUH/gvZ8Tfjf%2B2UdV%2BCnxG8UeE/hr4HuY4/DaaeJNOXWnTy2lu72BmIukkmQ%2BXFcLsEAQNCjyTh/wBqf%2BCXP/BRrwr/AMFI/wBmbS/FGlX9knjHSba3tfGGixxmCTSNRMfzlImd2%2ByyssjQSb2DICpYSRyonLRxkKk3CPT8T7fP%2BAMzyjLqOY4le7P4kk7wb2UtNL7eUtO1/pGiiiuo%2BHCiiigAooooAKKKKACiiigAooooAKKKKACvxy/4OW/%2BCsv/AAiWl3/7Nfw/1DW9P8QXHkyeOtRtz9niSxmt/MTSlJXfJ56TQyyvGyqIwsRMglnjj%2Bx/%2BC03/BUHTf8Agmv%2BzM7WJvpfiV4%2BtrzT/B8cEKtHZzpGgk1CVpEeLZbGeFxEysZXZE27DJJH/MF4l8S6l4z8R6hrGsahfatq%2BrXMl5fX15O09zeTyMXklkkclndmJZmYkkkkkk15eY4vlXso7vc/cPCTgb63VWdY2P7uD/dp/akn8XpF7d5f4WnSr6S/4Jc/8FGvFX/BNz9pnS/FGlX98/g7Vrm3tfGGixxiePV9OEnzlImdF%2B1RK0jQSb1KuSpYxySo/wA20V4sJuMlKO6P6Nx%2BAoY3DzwuJipQmrNP%2Bt1un0ep/ZT8FvjT4V/aJ%2BFeh%2BN/BGuWXiPwr4jthdafqFqxMcyZKkEEBkdWDI8bhXR0ZGVWUgdPX4Ef8G3n/BWX/hn/AOItt8BPH%2Boa3d%2BEvHOpW9r4Olz9og8PapPKym22BTIsF3LJHyrFIphuKATzzJ%2B%2B9fTYbEKrBSW/U/i3jHhavkOYzwdS7g9YS/mj0%2Ba2l5rTRpsoooroPlAooooAKKKKACiiigAooooAK89/at/ad8K/safs9eKPib41mvovDfhS2We5Fnbm4uZ3eRIYYY0GAXkmkjjUsVQFwXZFDMPQq/mr/wCC/H/BUaf9u/8AaZn8IeFNUvv%2BFUfDm5ksbGCO9hnsdf1GOSWOXVkMOVdHU%2BXAS8gESmRfLNxKlcuLxKowv1ex9pwLwjUz/MVQ2pQs5vtG%2By85bLtq9bWPmD9ub9snxV%2B3l%2B0z4l%2BI/iu7vnk1a5dNK0%2Be5E8eg6cJHa3sIiqIuyJWwWCKZHLyMC8jk%2BRUUV81KTk22f2bhcLSw1GOHoRUYRSSS2SWyCiiikbhX9Fv/BvR/wAFZf8AhtT4Op8KfG%2Boa3qXxb8Aaa91Lqd%2BftH/AAkelrOsaXJlVRieHzoIZBKS8nyS75WeYR/zpV1HwW%2BNPir9nb4qaH438Ea5feHPFXhy5F1p%2BoWrASQvgqQQQVdGUsjxuGR0dkZWViD0YXEOjPmW3U%2BR404ToZ/l7ws7KpHWEu0vPryvZr0drpH9lFFeEf8ABOX9v3wr/wAFI/2ZrD4i%2BF7O%2B0mRLltL1rSroFpNI1GOOOSW3Eu0LMm2WN0lUAMki7ljcPGnu9fTQmpJSjsz%2BL8bg6%2BErzw2Ji4zg2mn0a/r0fQKKKKo5QooooAKKKKACiivlP8A4K9f8FNtO/4Jh/szJ4khsbLXvG/iW5bS/DGkXFyscck4jLvdzoHWV7WAbd/lDJeWCMtF5olSJzUIuUtkd2W5diMfioYPCx5pzdkv62S3b6I%2BOP8Ag5b/AOCrf/CqfB1/%2Bzd4Kbd4g8WabDceLNXt9Q2NpFjI%2B5dPVYnDie4RAZVmAX7LOo2SC53RfhFV3xL4l1Lxn4j1DWNY1C%2B1bV9WuZLy%2Bvrydp7m8nkYvJLJI5LO7MSzMxJJJJJJqlXzOIrurPmZ/anCXDGHyLL44Kjq95S/ml1fWy0sl0S73YUUUVgfTBRRRQAUUUUAfT/AASa/wCCkWs/8E1P2p9P8VeZrd/4E1fFl4t0GwmRf7VtdriOUJIChnt3fzYzlGbDxeZGk0hP9UnhrxLp3jPw5p%2BsaPqFlq2katbR3ljfWc6z215BIoeOWORCVdGUhlZSQQQQSDX8Xlfrn/wbSf8ABVv/AIVT4xsP2bvGrbvD/izUprjwnq9xqGxdIvpE3Np7LK4QQXDoTEsIDfap2GyQ3O6L08uxXI/Zy2ex%2BK%2BLXBH16g84wcf3tNe%2Bl9qK6%2BsVfza06JH7u0UUV7p/MIUUUUAFFFFABX5Gf8HQn/BN7WfjH4O0n9oHwlHres6n4I01NE8R6TbwpLFb6Oj3NwNRXBEg8mWZ1lAEg8uVZD5SQSs3650VlXoqrBwZ7vDef18mzCnmGHV3HdPZp7ryuuvR6n8V9Ffd3/BdP/gk1/w7k%2BO1trXgrT9bm%2BD/AIz/AHml3VwPOi0O%2BJkMmlNNuZ22ogkieYKzxsy5laCWQ/CNfL1acoScJbo/tnJ83w2Z4OGOwkrwmrruu6fZp6NdwoooqD0gooooAKKKKACvp/8A4JNf8E3tZ/4KWftT6f4V8vW7DwJpGL3xbr1hCjf2Va7XMcQeQhBPcOnlRjDsuXl8uRIZAPCPgt8FvFX7RPxU0PwR4I0O%2B8R%2BKvEdyLXT9PtVBkmfBYkkkKiKoZ3kcqiIjOzKqkj%2BqT/gmB%2BwVo3/AATm/ZE0H4f6efP1ufbq/ie8W7e5iv8AWJYYkuZIiyptgHlJHGojQ%2BXEhYGQu7duCwvtZ3ey/qx%2BceJHGqyPA%2Byw7X1iomo/3V1m15fZvo5d0mj6Eooor6M/j4KKKKACiiigAooooA8w/bB/Y%2B8Cft0fAnVfh58Q9K/tLRNSxLBPERHeaTdKGEd3ayEHy549zYOCrKzo6vG7o38pv7YP7H3jv9hf47ar8PPiHpX9m63puJYJ4i0lnq1qxYR3drIQPMgk2tg4DKyujqkiOi/2A18Pf8Fvv%2BCUOm/8FFf2errWPDGiWT/GrwjbBvDd8blbNtSgEgeXTZ5GUq6MplaESFRHOynzIo5J9/BjsL7SPNHdfifqnhjxw8nxf1PFy/2eq1e%2B0JbKWrsk/teST6a/zIUVd8S%2BGtS8GeI9Q0fWNPvtJ1fSbmSzvrG8gaC5s542KSRSRuAyOrAqysAQQQQCKpV88z%2Bs4yTV1sFFFFAwoor9Pv8Ag3o/4I%2Bf8NY/EVPi98UvCv234SeH9/8AYlrftsg8UapHKoGYSh%2B0WUO2XzMsqPMqR/vVW5jXSjSlUkoRPHz/AD3C5RgZ47Fu0Y9NLyfSKvu3/m9kz7U/4N6P%2BCPn/DJ3w6T4vfFLwr9i%2BLfiDf8A2Ja37b5/C%2BlyRKBmEoPs97Nul8zLM6Qskf7pmuY2/T6iivp6NKNOKhE/ijP89xWb46eOxbvKXTW0V0ir7Jf5vdsKKKK1PGCiiigAooooAKKKKACiiigD8V/%2BDkP/AII%2Bf8fP7Qvwm8K/8/F38RrHT2/3WXV47YJ/11N06N/zzmMf/HzNX4r1/aH4l8Nad4z8Oaho%2BsafZatpGrW0lnfWN5As9teQSKUkikjcFXRlJVlYEEEggg1/MH/wWm/4Jfal/wAE1/2mXWxFlL8NfH1zeah4PkgmZpLOBJEMmnyrI7y77YTwoJWZhKjI%2B7eZI4/DzHC8r9rFaPc/pfwj43eKpLJMbK9SC/dt7yitXG73cVt/dX90%2BOKKK2vhr8O9Z%2BL3xF0Dwl4ds/7R8QeKNSt9I0y181IftN1cSrFFHvkZUXc7qNzMFGckgZNeWkft85xhFyk7Jatvoe1f8EwP2CtZ/wCCjP7Xeg/D/Tz5GiQbdX8T3i3aW0tho8U0SXMkRZX3TnzUjjURuPMlQsBGHdf6pfgt8FvCv7O3wr0PwR4I0Oy8OeFfDlsLXT9PtVIjhTJYkkks7sxZ3kcs7u7OzMzEnwf/AIJNf8E3tG/4Jp/ssaf4V8vRL/x3q%2BL3xbr1hC6/2rdbnMcQeQlzBbo/lRjCK2Hl8uN5pAfp%2Bvo8FhfZQu93/Vj%2BQPEjjV55jvZYdv6vTbUf7z6za8/s31UezbQUUUV2n5wFFFFABRRRQAUUUUAFFFFABRRRQAV5H%2B3N%2Bxt4V/by/Zm8S/DjxXaWTx6tbO%2BlahPbGeTQdREbrb38QV0bfEzZKh1EiF42JSRwfXKKmUVJNM3wuKq4atHEUJOM4tNNbprZn8eP7Vv7MXir9jT9oXxR8MvGsNlF4k8KXKwXJs7gXFtOjxpNDNG4wSkkMkcihgrgOA6owZR%2B23/Bt5/wSa/4Z%2B%2BHVt8e/H%2Bn6JeeLvHOm2914Oix9on8PaXPEzG53hjGs93FJHwql4oRtLgzzwp93ftKf8E6vgn%2B2D8RfDHi34lfDzRPFniDwhhdOurppUzGJRKIZ0jdUuoA4JENwskY8yUbcSyBvaq8/D5eqdRzbuuh%2Bs8V%2BK1bNcop5fRg4Tkv3r6O3SOt%2BWW7vZ293VXbKKKK9I/HwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/Z
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:19:46 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\proyecto_sisweb\View\Rooms\add.ctp, line 21]
+2013-11-14 18:19:46 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 21, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 21, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 18:19:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:19:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:22:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:22:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:22:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:22:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:23:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:23:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:28:38 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\wamp\www\proyecto_sisweb\View\Rooms\add.ctp, line 22]
+2013-11-14 18:28:38 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 22, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 22, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 18:28:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:28:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:16 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\wamp\www\proyecto_sisweb\View\Rooms\add.ctp, line 23]
+2013-11-14 18:29:16 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 23, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 23, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 18:29:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:29:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:32:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:54:50 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\proyecto_sisweb\View\Rooms\add.ctp, line 35]
+2013-11-14 18:54:50 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /proyecto_sisweb/rooms/add/4
+Stack Trace:
+#0 C:\wamp\cake\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 35, Array)
+#2 C:\wamp\cake\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 35, Array)
+#3 C:\wamp\cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 18:54:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:54:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/bootstrap.min.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-14 18:55:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /proyecto_sisweb/css/main.css
+Stack Trace:
+#0 C:\wamp\www\proyecto_sisweb\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
