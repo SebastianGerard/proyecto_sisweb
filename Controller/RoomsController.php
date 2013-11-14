@@ -54,7 +54,13 @@ Controller::loadModel('RoomImage');
 		$data=array('room'=>$room,'id'=>$id,'images'=>$images);
         $this->set('data', $data);
 }
+public function deleteImage($idIm,$id)
+{
+Controller::loadModel('RoomImage');
+$this->RoomImage->delete($idIm);
+$this->redirect(array('action'=>'add/'.$id));
 
+}
 private function setImage($file)
 {
 $data=null;

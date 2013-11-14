@@ -19,8 +19,7 @@ echo $this->Form->input('type',array('readonly'=>'true','value'=>$data['room']['
 echo $this->Form->input('image',array('type'=>'file','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
  foreach ($data['images'] as $image)
  {
-echo  '<img src="data:image/jpeg;base64,' . ($image['RoomImage']['image']) . '" width="100" height="100">';
-
+	echo  '<a href=/proyecto_sisweb/rooms/deleteImage/'.$image['RoomImage']['id'].'/'.$data['id'].'><img src="data:image/jpeg;base64,' . ($image['RoomImage']['image']) . '" width="100" height="100"></a>';
  }
 ?>
 <br>
