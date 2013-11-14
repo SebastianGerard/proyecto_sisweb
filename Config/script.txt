@@ -26,7 +26,35 @@ CREATE TABLE users (
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
+CREATE TABLE rooms (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    price VARCHAR(50) NOT NULL,
+    capacity VARCHAR(50) NOT NULL,
+    ubication VARCHAR(50) NOT NULL,
+    type VARCHAR(50) NOT NULL,
+    status bit NOT NULL,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
 
+CREATE TABLE artifacts (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    room_id INT UNSIGNED NOT NULL,
+    accesory_id INT UNSIGNED NOT NULL,
+    amount INT UNSIGNED NULL,
+    status bit NOT NULL,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+CREATE TABLE accessorys (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    descrition VARCHAR(50) NULL,
+    image LONGBLOB,
+    status bit NOT NULL,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
 
 /* algunos valores de test */
 INSERT INTO posts (title,body,created)
