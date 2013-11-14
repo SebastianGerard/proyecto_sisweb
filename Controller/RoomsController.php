@@ -1,5 +1,6 @@
 <?php
 
+
 class RoomsController extends AppController {
 public function index() {
 
@@ -18,6 +19,7 @@ public function register()
 }
 public function add($id)
 {
+Controller::loadModel('RoomImage');
 	if (!$id) {
             throw new NotFoundException(__('Invalid Id'));
         }
@@ -28,23 +30,28 @@ public function add($id)
         }
 	if($this->request->is('post'))
         {
-        	Controller::loadModel('RoomImage');
-
+        		
 			$a=$this->request->data['RoomImage']['image'];
      		$tmp_name = $a['tmp_name'];
         	$this->request->data['RoomImage']['image']=$this->setImage($tmp_name);
-			$this->request->data['RoomImage']['room_id']=$room['Room']['id'];
-	        $this->RoomImage->create();
-            $this->RoomImage->set($this->data);
-            if($this->RoomImage->save($this->request->data))
-            { 
-                $this->Session->setFlash(__('Image saved'));
-              //  $this->redirect(array('action'=>'index'));
-            }
+        	if($this->request->data['RoomImage']['image']!=null)
+        	{
+				$this->request->data['RoomImage']['room_id']=$room['Room']['id'];
+		        $this->RoomImage->create();
+	            $this->RoomImage->set($this->data);
+
+	            if($this->RoomImage->save($this->request->data))
+	            { 
+	                $this->Session->setFlash(__('Image saved'));
+
+        
+	              //  $this->redirect(array('action'=>'index'));
+	            }
+        	}
         
         }
-		
-        $data=array('room'=>$room,'id'=>$id);
+        $images=($this->RoomImage->find('all',array('conditions'=>'RoomImage.room_id ='.$room['Room']['id'])));
+		$data=array('room'=>$room,'id'=>$id,'images'=>$images);
         $this->set('data', $data);
 }
 
