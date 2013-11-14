@@ -46,7 +46,6 @@ CREATE TABLE artifacts (
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
-drop table accessorys;
 CREATE TABLE accessories (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,

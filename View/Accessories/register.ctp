@@ -14,7 +14,7 @@ function validate(evt) {
 <h1>Registro de POKE-Usuario</h1>
 
 <?php
-echo $this->Form->create('Accessory');
+echo $this->Form->create('Accessory',array('enctype'=>'multipart/form-data'));
 ?>
 <div class="row">
           <div class="col-lg-6">
