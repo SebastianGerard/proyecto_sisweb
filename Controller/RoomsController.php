@@ -3,7 +3,8 @@
 
 class RoomsController extends AppController {
 public function index() {
-
+		$this->Room->recursive = 0;
+        $this->set('rooms', $this->paginate());
 	}
 public function register()
 {
@@ -17,7 +18,7 @@ public function register()
             }
         }
 }
-public function add($id)
+public function add($id=null)
 {
 Controller::loadModel('RoomImage');
 	if (!$id) {
@@ -75,7 +76,21 @@ $data = base64_encode ($data);
 }
 return $data;
 }
+public function view($id=null)
+{
+Controller::loadModel('RoomImage');
+	if (!$id) {
+            throw new NotFoundException(__('Invalid Id'));
+        }
 
+        $room = $this->Room->findById($id);
+        if (!$room) {
+            throw new NotFoundException(__('Invalid Id'));
+        }
+        $images=($this->RoomImage->find('all',array('conditions'=>'RoomImage.room_id ='.$room['Room']['id'])));
+		$data=array('room'=>$room,'id'=>$id,'images'=>$images);
+        $this->set('data', $data);
+}
 
 }
 ?>
