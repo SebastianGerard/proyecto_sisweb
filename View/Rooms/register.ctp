@@ -14,7 +14,7 @@ function validate(evt) {
 <h1>Registro de POKE-Usuario</h1>
 
 <?php
-echo $this->Form->create('User');
+echo $this->Form->create('Room');
 ?>
 <div class="row">
           <div class="col-lg-6">

@@ -55,6 +55,16 @@ CREATE TABLE accessories (
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
+CREATE TABLE room_images (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    room_id INT UNSIGNED NOT NULL,
+    image LONGBLOB,
+    status bit NOT NULL,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+
+
 
 /* algunos valores de test */
 INSERT INTO posts (title,body,created)
