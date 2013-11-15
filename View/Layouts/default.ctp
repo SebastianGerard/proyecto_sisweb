@@ -42,8 +42,8 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 		$user = $this->Session->read('User');
 		if(isset($user))
 		{
-				header('Location: /proyecto_sisweb/pages/home_login');
-				exit();
+				//header('Location: /proyecto_sisweb/pages/home_login');
+				//exit();
 		}
 	?>
 	<div id="container">

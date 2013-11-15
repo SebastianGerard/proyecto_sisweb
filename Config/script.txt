@@ -1,6 +1,14 @@
-drop table posts;
-drop table usuarios;
-
+/*servicio a la habitacion*/
+CREATE TABLE services (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    user_id INT UNSIGNED NOT NULL,
+    name  VARCHAR(50) NOT NULL,
+    detail VARCHAR(50) NULL,
+    amount INT UNSIGNED NOT NULL,
+    date DATETIME NOT NULL,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
 /* tabla para nuestros articulos */
 CREATE TABLE posts (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -73,5 +81,5 @@ INSERT INTO posts (title,body,created)
     VALUES ('A title once again', 'And the post body follows.', NOW());
 INSERT INTO posts (title,body,created)
     VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
-INSERT INTO usuarios (name,lastname,email,address,country,city,phone,cellphone,username,password,status,created)
+INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,created)
     VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito','pedrito','1', NOW());
