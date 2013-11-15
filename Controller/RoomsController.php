@@ -18,6 +18,27 @@ public function register()
             }
         }
 }
+public function edit($id=null)
+{
+    if (!$id) {
+            throw new NotFoundException(__('Invalid Id'));
+        }
+
+        $room = $this->Room->findById($id);
+        if (!$room) {
+            throw new NotFoundException(__('Invalid Id'));
+        }
+      if($this->request->is('post'))
+        {
+            $this->request->data['Room']['id']=$id;
+            $this->Room->set($this->data);
+            if($this->Room->save($this->request->data))
+            { 
+                $this->Session->setFlash(__('Room saved'));
+            }
+        }
+        $this->set('data', $room);
+}
 public function addAccessories($id=null)
 {
 Controller::loadModel('Accessory');
