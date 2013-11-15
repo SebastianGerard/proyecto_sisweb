@@ -1,3 +1,14 @@
+
+
+
+drop table posts;
+drop table services;
+drop table users;
+drop table rooms;
+drop table accessories;
+drop table artifacts;
+drop table room_images;
+
 /*servicio a la habitacion*/
 CREATE TABLE services (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -38,17 +49,17 @@ CREATE TABLE rooms (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     price VARCHAR(50) NOT NULL,
     capacity VARCHAR(50) NOT NULL,
-    ubication VARCHAR(50) NOT NULL,
+    amount INT UNSIGNED NOT NULL,
+    occupied INT UNSIGNED NOT NULL,
     type VARCHAR(50) NOT NULL,
     status bit NOT NULL,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
-
 CREATE TABLE artifacts (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     room_id INT UNSIGNED NOT NULL,
-    accesory_id INT UNSIGNED NOT NULL,
+    accessory_id INT UNSIGNED NOT NULL,
     amount INT UNSIGNED NULL,
     status bit NOT NULL,
     created DATETIME DEFAULT NULL,

@@ -14,10 +14,8 @@ $this->layout = 'login'
         <th>Detail</th>
         <th>Amount</th>
         <th>Date</th>
-
     </tr>
-
-<?php foreach ($services as $service): ?>
+	<?php foreach ($services as $service): ?>
     <tr>
         <td><?php echo $service['Service']['name']; ?></td>
         <td><?php echo $service['Service']['detail']; ?></td>
