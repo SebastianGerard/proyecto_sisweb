@@ -26,7 +26,38 @@ echo $this->Form->input('price',array('readonly'=>'true','value'=>$data['room'][
 echo $this->Form->input('capacity',array('readonly'=>'true','value'=>$data['room']['Room']['capacity'],'class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 echo $this->Form->input('ubication',array('readonly'=>'true','value'=>$data['room']['Room']['ubication'],'class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 echo $this->Form->input('type',array('readonly'=>'true','value'=>$data['room']['Room']['type'],'type'=>'text','options'=>array('simple'=>'Simple','double'=>'Double','presidential'=>'presidential'),'class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+echo '<h4>My accessories</h4>';
+foreach ($data['myAccessories'] as $myAccessory) {
+	echo '<li><a data-toggle="modal" href="#accessory'.$myAccessory['Accessory']['id'].'" >'.$myAccessory['Accessory']['name'].'</a></li>';
 
+	echo '<form class="form-horizontal" role="form" action="/proyecto_sisweb/rooms/editAccessory/'.$data['id'].'/'.$myAccessory['Accessory']['id'].'" method="post">
+	<div class="modal fade" id="accessory'.$myAccessory['Accessory']['id'].'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    	 <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                              <h4 class="modal-title">Add Accessory('.$myAccessory['Accessory']['name'].')</h4>
+                          </div>
+                          <table>
+                          <tr>
+                          <td>
+                    		<img src="data:image/jpeg;base64,' . ($myAccessory['Accessory']['image']) . '" width=200 height=200>
+                    		</td>
+                    		<td>';
+      echo $this->Form->input('amount',array('value'=>($myAccessory['Artifact']['amount']),'type'=>'text','class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+                    		echo '</td>
+                    	   </tr>
+                    	  </table>
+							<div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
+                            <input type="submit" value="Add" class="btn btn-primary">
+                            </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+              </form>';
+}
+echo '<h4>Other accessories</h4>';
 foreach ($data['accessories'] as $accessory) {
 	echo '<li><a data-toggle="modal" href="#accessory'.$accessory['Accessory']['id'].'" >'.$accessory['Accessory']['name'].'</a></li>';
 	echo '<form class="form-horizontal" role="form" action="/proyecto_sisweb/rooms/newAccessory/'.$data['id'].'/'.$accessory['Accessory']['id'].'" method="post">

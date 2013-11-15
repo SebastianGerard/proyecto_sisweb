@@ -31,9 +31,9 @@ Controller::loadModel('Artifact');
         if (!$room) {
             throw new NotFoundException(__('Invalid Id'));
         }
-
+        $my_accessories=$this->Accessory->Artifact->find('all',array('conditions'=>'Artifact.room_id='.$room['Room']['id']));
         $accessories=$this->Room->query("SELECT * FROM accessories as Accessory WHERE NOT EXISTS (select * from artifacts as Artifact where Accessory.id=Artifact.accessory_id and Artifact.room_id=".$room['Room']['id'].")");
-        $data=array('room'=>$room,'id'=>$id,'accessories'=>$accessories);
+        $data=array('room'=>$room,'id'=>$id,'accessories'=>$accessories,'myAccessories'=>$my_accessories);
         $this->set('data', $data);
 
 }
@@ -58,6 +58,25 @@ public function newAccessory($roomId=null,$accessoryId=null)
         }
 
 }
+public function editAccessory($roomId=null,$accessoryId=null)
+{
+    Controller::loadModel('Artifact');
+
+    if($this->request->is('post'))
+        {
+    
+               $id= $this->Artifact->find('first',array('conditions'=>'room_id='.$roomId.' and accessory_id='.$accessoryId));
+                $this->Artifact->id=$id;
+                if($this->Artifact->saveField('amount',$this->request->data['Artifact']['amount']))
+                { 
+                    $this->Session->setFlash(__('Artifact saved'));
+
+                     $this->redirect(array('action'=>'addAccessories/'.$roomId));
+                }
+        }
+
+}
+
 public function add($id=null)
 {
 Controller::loadModel('RoomImage');
