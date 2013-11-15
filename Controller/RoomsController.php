@@ -76,7 +76,7 @@ public function newAccessory($roomId=null,$accessoryId=null)
 
                      $this->redirect(array('action'=>'addAccessories/'.$roomId));
                 }
-                
+
         }
 
 }
@@ -192,6 +192,12 @@ Controller::loadModel('RoomImage');
 		$data=array('room'=>$room,'id'=>$id,'images'=>$images,'accessories'=>$accessories);
         $this->set('data', $data);
 }
+
+
+
+
+
+
 
 }
 ?>

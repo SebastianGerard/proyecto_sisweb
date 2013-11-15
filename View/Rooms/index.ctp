@@ -1,5 +1,10 @@
+<?php
+$email = "ger.sal.jo@gkjkmail.com";
+$size = 40;
+$grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) .  "?s=" . $size."&d=mm";
+echo '<img src="'.$grav_url.'" alt="" />';
+?>
 
-Birthday (date and time): <input type="date" name="bdaytime">
 <table border=2 align="center">
     <tr>
         <th>Code</th>
