@@ -1,5 +1,11 @@
 drop table posts;
-drop table usuarios;
+drop table users;
+drop table rooms;
+drop table accessories;
+drop table artifacts;
+drop table room_images;
+
+
 
 /* tabla para nuestros articulos */
 CREATE TABLE posts (
@@ -30,13 +36,13 @@ CREATE TABLE rooms (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     price VARCHAR(50) NOT NULL,
     capacity VARCHAR(50) NOT NULL,
-    ubication VARCHAR(50) NOT NULL,
+    amount INT UNSIGNED NOT NULL,
+    occupied INT UNSIGNED NOT NULL,
     type VARCHAR(50) NOT NULL,
     status bit NOT NULL,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
-drop table artifacts;
 CREATE TABLE artifacts (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     room_id INT UNSIGNED NOT NULL,
