@@ -13,11 +13,15 @@ class UsersController extends AppController {
 
     function view($id = null)
     {
+        Controller::loadModel('Service');
         $this->User->id = $id;
         if (!$this->User->exists()) {
             throw new NotFoundException(__('Invalid user'));
         }
         $this->set('user', $this->User->read(null, $id));
+
+        $services=$this->User->Service->find('all',array('conditions'=>'Service.user_id='.$id));
+        $this->set('services',$services);
     }
     public function register() {
         if($this->request->is('post'))

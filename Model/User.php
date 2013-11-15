@@ -2,7 +2,12 @@
 App::uses('AuthComponent', 'Controller/Component');
 class User extends AppModel {
 	var $name='User';
-
+    public $hasMany = array(
+        'Service' => array(
+            'className' => 'Service',
+            'order' => 'Service.created DESC'
+        )
+    );
 	var $validate=array(
 			'email'=>array(
 				'rule'=>array('email',true),

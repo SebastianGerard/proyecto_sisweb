@@ -17,19 +17,13 @@
 	</title>
 	<?php
 	echo $this->Html->css('bootstrap.min');
-			echo $this->Html->css('main');
-
-		
-			
-			echo $this->Html->script('jquery-1.10.2.min');
-			echo $this->Html->script('bootstrap.min');
-			
-		
-    
-    echo $this->Html->css('cake.generic');
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
+	echo $this->Html->css('main');
+	echo $this->Html->script('jquery-1.10.2.min');
+	echo $this->Html->script('bootstrap.min');
+	echo $this->Html->css('cake.generic');
+	echo $this->fetch('meta');
+	echo $this->fetch('css');
+	echo $this->fetch('script');
 
 	?>
 </head>
@@ -42,8 +36,8 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 		$user = $this->Session->read('User');
 		if(isset($user))
 		{
-				header('Location: /proyecto_sisweb/pages/home_login');
-				exit();
+				//header('Location: /proyecto_sisweb/pages/home_login');
+				//exit();
 		}
 	?>
 	<div id="container">
