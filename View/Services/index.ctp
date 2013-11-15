@@ -12,6 +12,7 @@ $this->layout = 'login'
         <th>Date</th>
 
     </tr>
+    
 
     <!-- Here is where we loop through our $posts array, printing out post info -->
 

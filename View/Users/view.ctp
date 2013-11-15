@@ -7,6 +7,8 @@ $this->layout = 'login'
 
 <p>Address:<?php echo $user['User']['address'];?></p>
 
+<?php echo $this->Html->link("Registrar servicio",
+array('controller' => 'services', 'action' => 'add', $user['User']['id'])); ?>
 
 <table border=2>
     <tr>
