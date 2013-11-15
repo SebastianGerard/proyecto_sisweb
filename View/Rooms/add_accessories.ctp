@@ -49,8 +49,10 @@ foreach ($data['myAccessories'] as $myAccessory) {
                     	   </tr>
                     	  </table>
 							<div class="modal-footer">
+							<a data-toggle="modal" href="/proyecto_sisweb/rooms/deleteAccessory/'.$data['id'].'/'.$myAccessory['Accessory']['id'].'" class="btn btn-primary btn-md">Delete</a>
+                            <input type="submit" value="Edit" class="btn btn-primary">
                             <button type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
-                            <input type="submit" value="Add" class="btn btn-primary">
+                            
                             </div>
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->

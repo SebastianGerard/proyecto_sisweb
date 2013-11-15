@@ -76,7 +76,22 @@ public function editAccessory($roomId=null,$accessoryId=null)
         }
 
 }
+public function deleteAccessory($roomId=null,$accessoryId=null)
+{
+    Controller::loadModel('Artifact');
 
+    
+               $id= $this->Artifact->find('first',array('conditions'=>'room_id='.$roomId.' and accessory_id='.$accessoryId));
+               
+                $this->Artifact->delete($id['Artifact']['id']);
+                 
+                    $this->Session->setFlash(__('Artifact deleted'));
+
+                     $this->redirect(array('action'=>'addAccessories/'.$roomId));
+                
+        
+
+}
 public function add($id=null)
 {
 Controller::loadModel('RoomImage');
@@ -137,6 +152,9 @@ return $data;
 }
 public function view($id=null)
 {
+    Controller::loadModel('Accessory');
+Controller::loadModel('Artifact');
+
 Controller::loadModel('RoomImage');
 	if (!$id) {
             throw new NotFoundException(__('Invalid Id'));
@@ -146,8 +164,10 @@ Controller::loadModel('RoomImage');
         if (!$room) {
             throw new NotFoundException(__('Invalid Id'));
         }
+        $accessories=$this->Accessory->Artifact->find('all',array('conditions'=>'Artifact.room_id='.$room['Room']['id']));
+        
         $images=($this->RoomImage->find('all',array('conditions'=>'RoomImage.room_id ='.$room['Room']['id'])));
-		$data=array('room'=>$room,'id'=>$id,'images'=>$images);
+		$data=array('room'=>$room,'id'=>$id,'images'=>$images,'accessories'=>$accessories);
         $this->set('data', $data);
 }
 
