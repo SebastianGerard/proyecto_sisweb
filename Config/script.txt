@@ -36,11 +36,11 @@ CREATE TABLE rooms (
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );
-
+drop table artifacts;
 CREATE TABLE artifacts (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     room_id INT UNSIGNED NOT NULL,
-    accesory_id INT UNSIGNED NOT NULL,
+    accessory_id INT UNSIGNED NOT NULL,
     amount INT UNSIGNED NULL,
     status bit NOT NULL,
     created DATETIME DEFAULT NULL,

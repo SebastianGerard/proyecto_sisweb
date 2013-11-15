@@ -18,7 +18,7 @@ echo $this->Form->input('type',array('readonly'=>'true','value'=>$data['room']['
 
 echo $this->Html->link("add/remove image","add/".$data['id']);
 echo "<br>";
-echo $this->Html->link("add/remove accessories","addAccesories/".$data['id']);
+echo $this->Html->link("add/remove accessories","addAccessories/".$data['id']);
 echo "<br>";
 
 
@@ -29,7 +29,7 @@ echo "<br>";
 	echo '<div class="modal fade" id="room'.$image['RoomImage']['id'].'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                    		<img src="data:image/jpeg;base64,' . ($image['RoomImage']['image']) . '" width=600>
+                    		<img src="data:image/jpeg;base64,' . ($image['RoomImage']['image']) . '" width=600 height=500>
 
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->
