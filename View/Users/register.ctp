@@ -34,14 +34,10 @@ echo $this->Form->input('phone',array('class'=>'form-control','onkeypress'=>'val
 echo $this->Form->input('cellphone',array('class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 echo $this->Form->input('username',array('class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+echo $this->Form->input('newpassword',array('type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 
 ?>
-				 <div class="form-group">
-                    <label for="passwordnuevo" class="col-lg-4 control-label">Repita su Password:</label>
-                    <div class="col-lg-8">
-                      <input type="password" name="passwordnuevo" class="form-control"/>
-                    </div>
-                  </div>
+				 
 
 <br>
 

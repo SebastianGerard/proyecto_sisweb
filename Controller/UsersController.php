@@ -26,17 +26,21 @@ class UsersController extends AppController {
     public function register() {
         if($this->request->is('post'))
         {
+
             $this->User->create();
             $this->User->set($this->data);
-            $var = $this->request->data["User"]["password"];
-            $this->request->data["User"]["password"] = MD5( $var);
-            if($this->User->save($this->request->data))
-            { 
-                $this->Session->setFlash(__(' User saved'));
-                App::uses('CakeEmail','Network/Email'); 
-                $this->send_mail($this->request->data['User']['email'],$test['name'],$this->User->getLastInsertId());
-                $this->redirect(array('action'=>'login'));
-            }
+            
+                $var = $this->request->data["User"]["password"];
+                $this->request->data["User"]["password"] = MD5( $var);
+                if($this->User->save($this->request->data))
+                { 
+                   
+                    App::uses('CakeEmail','Network/Email'); 
+                    $this->send_mail($this->request->data['User']['email'],$test['name'],$this->User->getLastInsertId());
+                    $this->redirect(array('action'=>'login'));
+                }
+            
+            
         }
         else
         $this->set('register');
@@ -59,11 +63,11 @@ class UsersController extends AppController {
     public function login() {
         if(empty($this->data) == false) 
         { 
-            if(($user = $this->User->validateLogin($this->data['User'],MD5($this->data['User']['password'])) == true)) 
+            if(($user = $this->User->validateLogin($this->data['User'])) == true) 
             { 
-                
+
                 $this->Session->write('User', $user[0]); 
-                $this->Session->setFlash('You\'ve successfully logged in.'); 
+                $this->Session->setFlash("You are logged in"); 
                 
                 $this->redirect('/pages/home_login');
             } 

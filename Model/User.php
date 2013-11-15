@@ -10,10 +10,16 @@ class User extends AppModel {
     );
 	var $validate=array(
 			'email'=>array(
-				'rule'=>array('email',true),
-                'required'   => true,
-				'message'=>'Invalid email'
+				'validate' => array(
+                    'rule'=>array('email',true),
+                    'required'   => true,
+    				'message'=>'Invalid email'
 				),
+                'unique' => array(
+                        'rule' => 'isUnique',
+                        'message' => 'This email is already taked'
+                    ),
+            ),
             'name' => array(
                     'between' => array(
                         'rule'    => array('between', 5, 50),
@@ -77,6 +83,10 @@ class User extends AppModel {
                         'required'   => true,
                         'message' => 'Between 5 to 50 characters'
                     ),
+                    'unique' => array(
+                        'rule' => 'isUnique',
+                        'message' => 'This username is already taked'
+                    ),
 
                 ),
             'password' => array(
@@ -85,6 +95,10 @@ class User extends AppModel {
                         'required'   => true,
                         'message' => 'Between 5 to 50 characters'
                     ),
+                    'identicalFieldValues' => array( 
+                        'rule' => array('identicalFieldValues', 'newpassword' ), 
+                        'message' => 'Please re-enter your password twice so that the values match' 
+                    ) 
                 )
 
 		);
@@ -95,11 +109,24 @@ class User extends AppModel {
         }
         return true;
     }*/
-	function validateLogin($data,$password) 
+    function identicalFieldValues( $field=array(), $compare_field=null )  
+    { 
+        foreach( $field as $key => $value ){ 
+            $v1 = $value; 
+            $v2 = $this->data[$this->name][ $compare_field ];       
+            $v2 = MD5($v2);
+            if($v1 !== $v2) { 
+                return FALSE; 
+            } else { 
+                continue; 
+            } 
+        } 
+        return TRUE; 
+    } 
+	function validateLogin($data) 
     {   $var = $data['password'];
         $var=MD5($var);
-        echo $var;
-        $user = $this->query("SELECT * FROM users WHERE username='".$data['username']."' and password='".$password."' and status='1'"); 
+        $user = $this->query("SELECT * FROM users WHERE username='".$data['username']."' and password='".$var."' and status='1'"); 
         if(empty($user) == false) 
             return $user; 
         return false; 

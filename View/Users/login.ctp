@@ -10,7 +10,6 @@
 			echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 		?>
 		<input type='submit' value="Login" class = 'btn btn-primary'/>
-		</form>
 	</div>
 	</body>
 </html>
