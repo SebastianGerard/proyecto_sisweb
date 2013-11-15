@@ -76,6 +76,7 @@ public function newAccessory($roomId=null,$accessoryId=null)
 
                      $this->redirect(array('action'=>'addAccessories/'.$roomId));
                 }
+                
         }
 
 }
