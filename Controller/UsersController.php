@@ -28,6 +28,8 @@ class UsersController extends AppController {
         {
             $this->User->create();
             $this->User->set($this->data);
+            $var = $this->request->data["User"]["password"];
+            $this->request->data["User"]["password"] = MD5( $var);
             if($this->User->save($this->request->data))
             { 
                 $this->Session->setFlash(__(' User saved'));
@@ -57,7 +59,7 @@ class UsersController extends AppController {
     public function login() {
         if(empty($this->data) == false) 
         { 
-            if(($user = $this->User->validateLogin($this->data['User'])) == true) 
+            if(($user = $this->User->validateLogin($this->data['User'],MD5($this->data['User']['password'])) == true)) 
             { 
                 
                 $this->Session->write('User', $user[0]); 
