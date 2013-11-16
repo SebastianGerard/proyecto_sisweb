@@ -37,7 +37,8 @@ class UsersController extends AppController {
                    
                     App::uses('CakeEmail','Network/Email'); 
                     $this->send_mail($this->request->data['User']['email'],$this->request->data['User']['name'],$this->User->getLastInsertId());
-                    $this->redirect(array('action'=>'login'));
+                    $this->redirect(array("controller"=>"Pages",
+                        "action"=>"display"));
                 }
             
             

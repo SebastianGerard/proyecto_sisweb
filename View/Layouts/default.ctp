@@ -74,11 +74,11 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 	 			
 	 			<div class="col-lg-12">
 	 				<div class="col-lg-6">
-	 					<font color="2E9AFE"><img src="../webroot/img/cellphone.png" width="50"><h3>Call us 70-467-919</h3></font>
+	 					<font color="2E9AFE"><img src="/proyecto_sisweb/webroot/img/cellphone.png" width="50"><h3>Call us 70-467-919</h3></font>
 	 				</div>
 	 				<div class="col-lg-6">
 		 				<div class="row">
-		 				<img src="../webroot/img/mail.png" width="50">
+		 				<img src="/proyecto_sisweb/webroot/img/mail.png" width="50">
 		 				</div>
 	 					<div class="row">
 		 				
@@ -94,13 +94,13 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 	 		<div class="row" style="padding:15px;margin-bottom:30px">
 	 			
  				<div class="col-lg-4">
- 					<img src="../webroot/img/6.jpg" width="200">
+ 					<img src="/proyecto_sisweb/webroot/img/6.jpg" width="200">
  				</div>
  				<div class="col-lg-4">
-					<img src="../webroot/img/8.jpg" width="200">
+					<img src="/proyecto_sisweb/webroot/img/8.jpg" width="200">
  				</div>
  				<div class="col-lg-4">
-					<img src="../webroot/img/9.jpg" width="200">
+					<img src="/proyecto_sisweb/webroot/img/9.jpg" width="200">
  				</div>
 	 			
 	 		</div>
