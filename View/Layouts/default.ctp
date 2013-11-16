@@ -60,7 +60,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
             <li><a href="/proyecto_sisweb/users/register">Register</a></li>
           </ul>
             <ul class="nav navbar-nav navbar-right">
-               <li class="active"><a href="/proyecto_sisweb/users/login">Log In</a></li>
+               <li class="active"><a  data-toggle="modal" href="#login">Log In</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -123,5 +123,45 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 	</div>
 <?php echo $this->Js->writeBuffer(); ?>
 </body>
+
+
+<?php 	echo $this->Form->create('User',array('action'=>'login'));?>
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    	 <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                              <h4 class="modal-title">LogIn</h4>
+                          </div>
+                          
+                          	<h1>Ingreso al poke-sistema</h1>
+
+						<html>
+							<body>
+							<div class="users form">
+									<?php 
+										echo $this->Form->input('username',array('class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+										echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+									?>
+									
+							</div>
+
+							</body>
+						</html>
+
+                          	<div class="modal-footer">
+							<input type='submit' value="Login" class = 'btn btn-primary'/>
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
+                            
+                            </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+              </form>'
+
+
+
+
+
 
 </html>
