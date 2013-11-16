@@ -83,7 +83,7 @@ echo $this->Form->create('User');
     
   </div>
 </div>
-</form>
+
 <div class="row">
 <div class="col-lg-10" align="right">
 <input type='submit' value="Register"  class = 'btn btn-primary'/>
@@ -91,6 +91,7 @@ echo $this->Form->create('User');
 <div class="col-lg-2">
 </div>
 </div>
+</form>
 <br>
 
 
