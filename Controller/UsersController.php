@@ -36,7 +36,7 @@ class UsersController extends AppController {
                 { 
                    
                     App::uses('CakeEmail','Network/Email'); 
-                    $this->send_mail($this->request->data['User']['email'],$test['name'],$this->User->getLastInsertId());
+                    $this->send_mail($this->request->data['User']['email'],$this->request->data['User']['name'],$this->User->getLastInsertId());
                     $this->redirect(array('action'=>'login'));
                 }
             
@@ -51,10 +51,10 @@ class UsersController extends AppController {
      if($user!=null)
      {
      $this->User->updateAll(array("status"=>"1"),array("id"=>$id));
-     $message="cuenta activada";
+     $message="account actived";
       }  
      else
-     $message="ERROR";
+     $message="UNKNOWN ERROR";
     
       
      $this->set('message',$message);   
