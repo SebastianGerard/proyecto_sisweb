@@ -12,6 +12,10 @@ function validate(evt) {
     if(theEvent.preventDefault) theEvent.preventDefault();
   }
 }
+function test()
+{
+  return confirm("are you sure you want delete this image?");
+}
 </script>
 
 <?php
@@ -39,7 +43,7 @@ foreach ($data['myAccessories'] as $myAccessory) {
                     <div class="modal-content">
                     	 <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                              <h4 class="modal-title">Add Accessory('.$myAccessory['Accessory']['name'].')</h4>
+                              <h4 class="modal-title">Edit Accessory('.$myAccessory['Accessory']['name'].')</h4>
                           </div>
                           <table>
                           <tr>
@@ -52,7 +56,7 @@ foreach ($data['myAccessories'] as $myAccessory) {
                     	   </tr>
                     	  </table>
 							<div class="modal-footer">
-							<a data-toggle="modal" href="/proyecto_sisweb/rooms/deleteAccessory/'.$data['id'].'/'.$myAccessory['Accessory']['id'].'" class="btn btn-primary btn-md">Delete</a>
+							<a data-toggle="modal" onClick="return test();" href="/proyecto_sisweb/rooms/deleteAccessory/'.$data['id'].'/'.$myAccessory['Accessory']['id'].'" class="btn btn-primary btn-md">Delete</a>
                             <input type="submit" value="Edit" class="btn btn-primary">
                             <button type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
                             

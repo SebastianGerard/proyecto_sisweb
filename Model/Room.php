@@ -3,9 +3,14 @@ class Room extends AppModel {
 public $hasMany = array('RoomImage','Artifact');
 	var $validate=array(
 			'code'=>array(
+				'validate'=>array(
 				'rule'=>'alphaNumeric',
 				'required'=>true,
 				'message'=>'Only alpha-numeric'
+				),'unique' => array(
+                        'rule' => 'isUnique',
+                        'message' => 'This code is already taked'
+                    )
 				),
 			'type'=>array(
 				'rule'=>'alphaNumeric',

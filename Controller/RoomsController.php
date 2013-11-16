@@ -15,6 +15,7 @@ public function register()
             if($this->Room->save($this->request->data))
             { 
                 $this->Session->setFlash(__('Room saved'));
+                $this->redirect(array('action'=>'index'));
             }
         }
 }
@@ -35,7 +36,10 @@ public function edit($id=null)
             if($this->Room->save($this->request->data))
             { 
                 $this->Session->setFlash(__('Room saved'));
+                $this->redirect(array('action'=>'index'));
             }
+            else
+                $this->redirect(array('action'=>'rooms/edit/'.$roomId));
         }
         $this->set('data', $room);
 }
@@ -140,7 +144,6 @@ Controller::loadModel('RoomImage');
 	            if($this->RoomImage->save($this->request->data))
 	            { 
 	                $this->Session->setFlash(__('Image saved'));
-
         
 	              //  $this->redirect(array('action'=>'index'));
 	            }
