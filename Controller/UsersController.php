@@ -1,3 +1,12 @@
+<script>
+function  validar()
+{
+    window.location.href='/proyecto_sisweb';
+    alert("Sorry, the information you've entered is incorrect.");
+
+
+}
+</script>
 <?php
 class UsersController extends AppController {
 
@@ -70,12 +79,14 @@ class UsersController extends AppController {
                 $this->Session->write('User', $user[0]); 
                 $this->Session->setFlash("You are logged in"); 
                 
-                $this->redirect('/pages/home_login');
+                $this->redirect('/pages/home');
             } 
             else 
             { 
-                $this->Session->setFlash('Sorry, the information you\'ve entered is incorrect.'); 
-                 
+
+                echo '<script>validar();</script>';
+     
+
             } 
         }
     }
