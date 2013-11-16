@@ -125,7 +125,8 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 </body>
 
 
-<?php 	echo $this->Form->create('User',array('action'=>'login'));?>
+
+<?php 	echo $this->Form->create('User',array('action'=>'login')); ?>
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
