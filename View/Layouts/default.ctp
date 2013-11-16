@@ -12,6 +12,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+         <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
 	<title>
 		<?php echo $title_for_layout; ?>
 	</title>
@@ -24,8 +26,8 @@
 	echo $this->fetch('meta');
 	echo $this->fetch('css');
 	echo $this->fetch('script');
+?>
 
-	?>
 </head>
 <body>
 <?php
@@ -67,8 +69,56 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer" align="center">
- 			<?php echo $this->Html->image('footer.jpg'); ?>
+		<div id="footer" align="center" >
+			<div class="row" style="padding: 50px;background-color: #000">
+	 			
+	 			<div class="col-lg-12">
+	 				<div class="col-lg-6">
+	 					<font color="2E9AFE"><img src="../webroot/img/cellphone.png" width="50"><h3>Call us 70-467-919</h3></font>
+	 				</div>
+	 				<div class="col-lg-6">
+		 				<div class="row">
+		 				<img src="../webroot/img/mail.png" width="50">
+		 				</div>
+	 					<div class="row">
+		 				
+							<font color="2E9AFE"><h3>
+							Email us poke_hotel_ucb@gmail.com</h3></font>
+		 				</div>
+		 			</div>
+	 			</div>
+	 		</div>
+	 		<div class="row" align="center" >
+	 			<h3>You might have seen us in...</h3>
+	 		</div>
+	 		<div class="row" style="padding:15px;margin-bottom:30px">
+	 			
+ 				<div class="col-lg-4">
+ 					<img src="../webroot/img/6.jpg" width="200">
+ 				</div>
+ 				<div class="col-lg-4">
+					<img src="../webroot/img/8.jpg" width="200">
+ 				</div>
+ 				<div class="col-lg-4">
+					<img src="../webroot/img/9.jpg" width="200">
+ 				</div>
+	 			
+	 		</div>
+	 		
+	 		<div class="row" style="padding: 50px;background-color: #000">
+	 			<div class="col-lg-1">
+	 			</div>
+	 			<div class="col-lg-4" align="left">
+	 				<font color="blue">© Poke-Hotel 2013 All rights reserved.</font>
+	 			</div>
+	 			<div class="col-lg-5" align="right">
+	 				<a href="www.facebook.com">Facebook</a>
+	 				<a href="www.twitter.com">Twitter</a>
+	 			</div class="col-lg-2">
+	 			<div>
+	 				
+	 			</div>
+	 		</div>
     	</div>
 	</div>
 <?php echo $this->Js->writeBuffer(); ?>
