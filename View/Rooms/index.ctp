@@ -1,4 +1,7 @@
 <?php
+$this->layout = 'login';
+?>
+<?php
 $email = "ger.sal.jo@gkjkmail.com";
 $size = 40;
 $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) .  "?s=" . $size."&d=mm";

@@ -56,10 +56,23 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/proyecto_sisweb/users/logout">Log Out</a></li>
-            <li class="active"><a href="/proyecto_sisweb/users">Users</a></li>
+            
+            <li><a href="/proyecto_sisweb/users">Users</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rooms <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                 <li><a href="/proyecto_sisweb/rooms/register">Register room</a></li>
+			      <li><a href="/proyecto_sisweb/rooms">View rooms</a></li>
+			    
+              </ul>
+            </li>  
+            <li><a href="/proyecto_sisweb/accessories/register">Add accessories</a></li>
           </ul>
-          
+            <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/proyecto_sisweb/users/logout">Log Out</a></li>
+          </ul>
+
+
         </div><!--/.nav-collapse -->
       </div>
 		</div>

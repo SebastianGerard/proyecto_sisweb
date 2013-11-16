@@ -54,11 +54,12 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/proyecto_sisweb/users/login">Log In</a></li>
+         
             <li><a href="/proyecto_sisweb/users/register">Register</a></li>
-            <li><a href="/proyecto_sisweb/rooms/register">Register room</a></li>
           </ul>
-          
+            <ul class="nav navbar-nav navbar-right">
+               <li class="active"><a href="/proyecto_sisweb/users/login">Log In</a></li>
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
 		</div>

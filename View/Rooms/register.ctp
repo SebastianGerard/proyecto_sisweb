@@ -11,6 +11,10 @@ function validate(evt) {
 }
 </script>
 
+<?php
+$this->layout = 'login';
+?>
+
 <h1>Registro de POKE-Usuario</h1>
 
 <?php

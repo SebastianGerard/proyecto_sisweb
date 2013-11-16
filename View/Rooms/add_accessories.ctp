@@ -1,3 +1,6 @@
+<?php
+$this->layout = 'login';
+?>
 <script>
 function validate(evt) {
   var theEvent = evt || window.event;

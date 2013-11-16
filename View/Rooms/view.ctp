@@ -1,4 +1,6 @@
-
+<?php
+$this->layout = 'login';
+?>
 <?php
 echo $this->Form->create('RoomImage',array('enctype'=>'multipart/form-data'));
 ?>
