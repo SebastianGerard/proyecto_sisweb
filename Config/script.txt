@@ -9,6 +9,19 @@ drop table accessories;
 drop table artifacts;
 drop table room_images;
 
+
+
+/*reservas*/
+CREATE TABLE reserves (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    user_id INT UNSIGNED NOT NULL,
+    room_id INT UNSIGNED NOT NULL,
+    first_day DATE NOT NULL, 
+    last_day DATE NOT NULL,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+
 /*servicio a la habitacion*/
 CREATE TABLE services (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,

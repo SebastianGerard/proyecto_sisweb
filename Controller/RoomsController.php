@@ -3,8 +3,26 @@
 
 class RoomsController extends AppController {
 public function index() {
-		$this->Room->recursive = 0;
-        $this->set('rooms', $this->paginate());
+    if($this->request->is('post'))
+    {
+            $from=$_POST['from'];
+            if($from=="")
+                $from=0;
+            $to=$_POST['to'];
+            if($to=="")
+                $to=1000000;
+            $capacity=$_POST['capacity'];
+            if($capacity=="")
+                $capacity=0;
+            $type=$_POST['type'];
+            if($type=="all")
+                $type="";
+            
+            $rooms=$this->Room->find('all',array('conditions'=>"capacity>=".$capacity." and price>=".$from." and price<=".$to." and type LIKE '%$type%'"));
+    }
+    else
+		$rooms= $this->Room->find('all');
+        $this->set('rooms', $rooms);
 	}
 public function register()
 {
@@ -19,6 +37,66 @@ public function register()
             }
         }
 }
+public function allReserves()
+{
+    Controller::loadModel('Reserve');
+    $reservations= $this->Reserve->find('all');
+         $this->set('reservations',$reservations );
+
+}
+public function removeReserve($id=null)
+{
+        Controller::loadModel('Reserve');
+         $id=$this->Reserve->find('first',array('conditions'=>'Reserve.id='.$id));
+        $this->Reserve->delete($id['Reserve']['id']);
+        $this->Session->setFlash(__('Reserve deleted'));
+ 
+        $this->redirect(array('action'=>'allReserves'));
+}
+public function reserve($id=null)
+{
+
+    Controller::loadModel('Reserve');
+    Controller::loadModel('User');
+    if($this->request->is('post'))
+        {
+            $user = $this->Session->read('User');
+            $start=$_POST['start'];
+            $end=$_POST['end'];
+            
+            if($start<=$end)
+            {
+                $collitions= $this->Reserve->find('all',array('conditions'=>"room_id=$id and ((STR_TO_DATE('$start',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$start',  '%Y-%m-%d' )<=last_day) or (STR_TO_DATE('$end',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$end',  '%Y-%m-%d' )<=last_day))"));
+                $number=count($collitions);
+                if($number==0)
+                {
+                    $this->request->data['Reserve']['first_day']=$start;
+                    $this->request->data['Reserve']['last_day']=$end;
+                    $this->request->data['Reserve']['user_id']=$user['users']['id'];
+                    $this->request->data['Reserve']['room_id']=$id;
+                    
+                    $this->Reserve->set($this->data);
+                    if($this->Reserve->save($this->request->data))
+                    { 
+                        $this->Session->setFlash(__('Reserve saved'));
+                        $this->redirect(array('action'=>'index'));
+                    }
+                }
+                else
+                    $this->set('collitions',$collitions);
+            }
+            else
+                $this->set('error','the end cannot be lower than start' );
+
+            
+         }
+      
+
+     $reservations= $this->Reserve->find('all',array('conditions'=>'room_id='.$id));
+     $this->set('reservations',$reservations );
+}
+
+
 public function edit($id=null)
 {
     if (!$id) {
@@ -38,9 +116,8 @@ public function edit($id=null)
                 $this->Session->setFlash(__('Room saved'));
                 $this->redirect(array('action'=>'index'));
             }
-            else
-                $this->redirect(array('action'=>'rooms/edit/'.$roomId));
-        }
+            
+         }
         $this->set('data', $room);
 }
 public function addAccessories($id=null)
