@@ -112,7 +112,7 @@ class UsersController extends AppController {
 
     public function send_mail($receiver = null, $name = null, $id = null) {
         $confirmation_link = "http://" . $_SERVER['HTTP_HOST'] . $this->webroot . "users/active_account/".($id);
-        $message = 'Hi,' . $name . ' ';
+        $message = 'Hi,' . $name . ' to activate your account please click the following link ';
         App::uses('CakeEmail', 'Network/Email');
         $email = new CakeEmail('gmail');
         $email->from('yosistemasucb@gmail.com');

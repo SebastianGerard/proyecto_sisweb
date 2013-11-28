@@ -27,7 +27,7 @@ $this->layout = 'login';
      	  <?php echo $reservation['Reserve']['last_day']; ?>
         </td>
         <td>
-        	<?php echo $this->Html->link("remove","removeReserve/".$reservation['Reserve']['id']); ?>
+        	<?php echo $this->Html->link("remove","removeReserve/".$reservation['Reserve']['id'],array('onClick'=>'return confirm("are you sure you want delete this reservation");')); ?>
         </td>
      
     </tr>

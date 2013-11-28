@@ -63,6 +63,7 @@ public function reserve($id=null)
             $user = $this->Session->read('User');
             $start=$_POST['start'];
             $end=$_POST['end'];
+            
             if($start<=$end)
             {
                 $collitions= $this->Reserve->find('all',array('conditions'=>"room_id=$id and ((STR_TO_DATE('$start',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$start',  '%Y-%m-%d' )<=last_day) or (STR_TO_DATE('$end',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$end',  '%Y-%m-%d' )<=last_day))"));
