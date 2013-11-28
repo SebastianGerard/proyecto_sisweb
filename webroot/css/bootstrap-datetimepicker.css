@@ -7,6 +7,10 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  */
+
+ .glyphicon .glyphicon-search{
+ 		background-image: url(../img/search.png);
+ }
 .datetimepicker {
 	padding: 4px;
 	margin-top: 1px;

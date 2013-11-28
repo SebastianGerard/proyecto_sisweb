@@ -16,8 +16,27 @@ class UsersController extends AppController {
     
     function index() 
     { 
-        $this->User->recursive = 0;
-        $this->set('users', $this->paginate());
+
+        if($this->request->is('post'))
+        {
+            if(isset($_POST["buscarbtn"]))
+            {
+                $this->Session->setFlash("lolza"); 
+                $var = $_POST["buscartxt"];
+                $this->set('users',$this->User->find('all',array('conditions'=>"name LIKE '%$var%' or username LIKE '%$var%' or lastname LIKE '%$var%'")));
+            }
+            else
+            {
+                $this->User->recursive = 0;
+                    $this->set('users', $this->paginate());
+            }
+        }
+        else
+        {
+            $this->User->recursive = 0;
+                    $this->set('users', $this->paginate());
+        }
+        
     } 
 
     function view($id = null)

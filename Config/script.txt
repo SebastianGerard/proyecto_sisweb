@@ -41,6 +41,7 @@ CREATE TABLE users (
     cellphone VARCHAR(8) NOT NULL,
     username VARCHAR(30) NOT NULL,
     password VARCHAR(100) NOT NULL,
+    NIT VARCHAR(50) NOT NULL,
     status bit NOT NULL,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
@@ -91,5 +92,7 @@ INSERT INTO posts (title,body,created)
     VALUES ('A title once again', 'And the post body follows.', NOW());
 INSERT INTO posts (title,body,created)
     VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
-INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,created)
-    VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito',MD5('pedrito'),'1', NOW());
+INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created)
+    VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito',MD5('pedrito'),'1',"661291268", NOW());
+INSERT INTO services (user_id,name,detail,amount,date,created)
+    VALUES ('1','Laundry','Lavanderia completa','50','2013-11-13 00:00:00',NOW());

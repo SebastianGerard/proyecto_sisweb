@@ -1,5 +1,5 @@
 <?php
-$this->layout = 'login'
+$this->layout = "login";
 ?>
 <div class="container row">
     
@@ -34,25 +34,40 @@ $this->layout = 'login'
             </div>
         </div>
 
-        <div class="col-lg-6">
-                <table class="table table-condensed table-striped table-hover">
-                    <tr>
-                        <th>Name</th>
-                        <th>Detail</th>
-                        <th>Amount</th>
-                        <th>Date</th>
-                    </tr>
-                	<?php foreach ($services as $service): ?>
-                    <tr>
-                        <td><?php echo $service['Service']['name']; ?></td>
-                        <td><?php echo $service['Service']['detail']; ?></td>
-                        <td><?php echo $service['Service']['amount']; ?></td>
-                        <td><?php echo $service['Service']['date']; ?></td>
-                    </tr>
-                    <?php endforeach; ?>
-                    <?php unset($service); ?>
-                </table>
+        <div class="col-lg-4">
+                <div class="row">
+                    <table class="table table-condensed table-striped table-hover">
+                        <tr>
+                            <th>Name</th>
+                            <th>Detail</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                        </tr>
+                    	<?php foreach ($services as $service): ?>
+                        <tr>
+                            <td><?php echo $service['Service']['name']; ?></td>
+                            <td><?php echo $service['Service']['detail']; ?></td>
+                            <td><?php echo $service['Service']['amount']; ?></td>
+                            <td><?php echo $service['Service']['date']; ?></td>
+                        </tr>
+                        <?php endforeach; ?>
+                        <?php unset($service); ?>
+                    </table>
+                </div>
+                
 
         </div>
-    
+
+        <div class="col-lg-2">
+                <button class="btn btn-primary">
+                    <?php 
+                        echo "<a href='/proyecto_sisweb/bills/index/".$user['User']['id']."' target='_blank'>";
+                    
+                        echo    "<img  src='/proyecto_sisweb/webroot/img/print.png' width='30'>";
+                        echo "</a>"
+                    ?>
+                    
+                </button>
+        </div>
+
 </div>
