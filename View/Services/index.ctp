@@ -1,6 +1,9 @@
 <!-- File: /app/View/Posts/index.ctp -->
 <?php
 $this->layout = 'login'
+$user = $this->Session->read('User');
+if($user['users']['rol']!='Admin')
+$this->redirect('/proyecto_sisweb');
 ?>
 <h1>All services of client:</h1>
 <table border=2>

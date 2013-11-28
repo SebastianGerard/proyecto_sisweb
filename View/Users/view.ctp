@@ -25,17 +25,28 @@ $this->layout = "login";
                         <p>Cellphone: <?php echo $user['User']['cellphone'];?></p>
                     </div>
                 </div>
+                <?php
+                    $userSession = $this->Session->read('User');
+                    if($userSession['users']['rol']=='Admin' && $user['User']['rol']!='Admin' )
+                    {
+                ?>
                 <div class="row" align="center">
                     <?php echo $this->Html->link("Register new service",
             array('controller' => 'services', 'action' => 'add', $user['User']['id'])); ?>
                 </div>
-
+                <?php } ?>
                 
             </div>
         </div>
 
         <div class="col-lg-4">
                 <div class="row">
+                      <?php
+                    $userSession = $this->Session->read('User');
+                    if($userSession['users']['rol']=='Admin' && $user['User']['rol']!='Admin' )
+                    {
+                       ?>
+         
                     <table class="table table-condensed table-striped table-hover">
                         <tr>
                             <th>Name</th>
@@ -53,11 +64,17 @@ $this->layout = "login";
                         <?php endforeach; ?>
                         <?php unset($service); ?>
                     </table>
+                    <?php } ?>
                 </div>
                 
 
         </div>
-
+               <?php
+                    $userSession = $this->Session->read('User');
+                    if($userSession['users']['rol']=='Admin' && $user['User']['rol']!='Admin' )
+                    {
+                ?>
+         
         <div class="col-lg-2">
                 <button class="btn btn-primary">
                     <?php 
@@ -69,5 +86,7 @@ $this->layout = "login";
                     
                 </button>
         </div>
+               <?php } ?>
+         
 
 </div>

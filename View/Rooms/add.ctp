@@ -1,6 +1,10 @@
 
 <?php
 $this->layout = 'login';
+$user = $this->Session->read('User');
+if($user['users']['rol']!='Admin')
+$this->redirect('/proyecto_sisweb');
+
 ?>
 <script>
 function test()
