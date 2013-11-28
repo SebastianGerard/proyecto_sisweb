@@ -1,6 +1,6 @@
 <?php
 class Room extends AppModel {
-public $hasMany = array('RoomImage','Artifact');
+public $hasMany = array('RoomImage','Artifact','Reserve');
 	var $validate=array(
 			'code'=>array(
 				'validate'=>array(

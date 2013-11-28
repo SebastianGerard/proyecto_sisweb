@@ -27,7 +27,8 @@ echo $this->Form->create('Room');
 	
 <?php
 echo $this->Form->input('code',array('class'=>'form-control','value'=>$data['Room']['code'],'between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
-echo $this->Form->input('type',array('type'=>'text','value'=>$data['Room']['type'],'class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+echo $this->Form->input('type',array('options'=>array('simple'=>'Simple','double'=>'Double','presidential'=>'presidential'),'value'=>$data['Room']['type'],'class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+
 echo $this->Form->input('price',array('class'=>'form-control','value'=>$data['Room']['price'],'onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 echo $this->Form->input('capacity',array('class'=>'form-control','value'=>$data['Room']['capacity'],'onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 

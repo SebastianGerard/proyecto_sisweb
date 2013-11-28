@@ -24,6 +24,8 @@ echo $this->Html->link("add/remove image","add/".$data['id']);
 echo "<br>";
 echo $this->Html->link("add/remove accessories","addAccessories/".$data['id']);
 echo "<br>";
+echo $this->Html->link("make a reservation","reserve/".$data['id']);
+echo "<br>";
 
 echo '<h4>Images</h4>';
 

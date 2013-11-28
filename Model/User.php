@@ -6,7 +6,7 @@ class User extends AppModel {
         'Service' => array(
             'className' => 'Service',
             'order' => 'Service.created DESC'
-        )
+        ),'Reserve'
     );
 	var $validate=array(
 			'email'=>array(
