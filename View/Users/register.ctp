@@ -90,6 +90,7 @@ echo $this->Form->create('User');
 <div class="col-lg-2">
 </div>
 </div>
+</form>
 <br>
 
 

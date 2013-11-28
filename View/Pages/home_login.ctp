@@ -2,4 +2,4 @@
 $this->layout = 'login';
 ?>
 
-<h1>Aca esta el home logueado</h1>
+<H1>WELCOME TO POKE-HOTEL!</H1>

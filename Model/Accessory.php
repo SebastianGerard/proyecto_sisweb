@@ -8,5 +8,6 @@ public $hasMany = array('Artifact');
 				'message'=>'only alpha-numeric name'
 				)
 		);
+
 }
 ?>

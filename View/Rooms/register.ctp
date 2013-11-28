@@ -15,14 +15,18 @@ function validate(evt) {
 $this->layout = 'login';
 ?>
 
-<h1>Registro de POKE-Usuario</h1>
+
 
 <?php
 echo $this->Form->create('Room');
 ?>
+
 <div class="row">
+          <div class="col-lg-3">
+          </div>
           <div class="col-lg-6">
             <div class="well">
+            <legend>POKE user register</legend>
  <form class="bs-example form-horizontal">
 <fieldset>
 	

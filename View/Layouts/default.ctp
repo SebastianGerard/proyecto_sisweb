@@ -131,18 +131,23 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
                     <div class="modal-content">
                     	 <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                              <h4 class="modal-title">LogIn</h4>
+                              
                           </div>
                           
-                          	<h1>Ingreso al poke-sistema</h1>
+                          	<legend>Log in to poke-system</legend>
 
 						<html>
 							<body>
 							<div class="users form">
+								<div class="row" style="padding:5;">
 									<?php 
-										echo $this->Form->input('username',array('class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
-										echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
-									?>
+
+										echo $this->Form->input('username',array('class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));?>
+										</div>
+										<div class="row" style="padding:5;">
+										<?php
+										echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));?>
+										</div>
 									
 							</div>
 

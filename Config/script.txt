@@ -14,7 +14,7 @@ CREATE TABLE services (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     user_id INT UNSIGNED NOT NULL,
     name  VARCHAR(50) NOT NULL,
-    detail VARCHAR(50) NULL,
+    detail VARCHAR(300) NULL,
     amount INT UNSIGNED NOT NULL,
     date DATETIME NOT NULL,
     created DATETIME DEFAULT NULL,
@@ -92,4 +92,4 @@ INSERT INTO posts (title,body,created)
 INSERT INTO posts (title,body,created)
     VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
 INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,created)
-    VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito','pedrito','1', NOW());
+    VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito',MD5('pedrito'),'1', NOW());

@@ -1,14 +1,8 @@
 <?php
 $this->layout = 'login';
 ?>
-<?php
-$email = "ger.sal.jo@gkjkmail.com";
-$size = 40;
-$grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) .  "?s=" . $size."&d=mm";
-echo '<img src="'.$grav_url.'" alt="" />';
-?>
-
-<table border=2 align="center">
+<legend>Rooms</legend>
+<table class="table table-condensed table-striped table-hover">
     <tr>
         <th>Code</th>
         <th>Type</th>
