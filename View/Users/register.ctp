@@ -83,6 +83,7 @@ echo $this->Form->create('User');
     
   </div>
 </div>
+
 <div class="row">
 <div class="col-lg-10" align="right">
 <input type='submit' value="Register"  class = 'btn btn-primary'/>
