@@ -2,6 +2,11 @@
 
 
 class RoomsController extends AppController {
+public function reservesReport()
+{
+        Controller::loadModel('User');
+        $this->set('users', $this->User->query("select User.username,count(*) as cantidad from reserves as Reserve,users as User where User.id=Reserve.user_id group by User.id order by cantidad DESC LIMIT 10"));
+}
 public function index() {
     if($this->request->is('post'))
     {

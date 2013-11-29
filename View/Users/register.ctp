@@ -44,8 +44,18 @@ echo $this->Form->create('User');
     ?>
     </div>
     <div class="row" style="margin-bottom:10px">
+      <?php if($this->Form->isFieldError('email')) 
+      {
+      echo '<div class="form-group has-error">';
+      echo     '<label class="control-label" for="inputError">'. $this->Form->error("email").'</label>';
+      }
+      else
+         echo '<div class="form-group">';
+        
+      ?>
     <?php
-    echo $this->Form->input('email',array('class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));?>
+    echo $this->Form->input('email',array('errorMessage' => false,'id'=>'inputError','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));?>
+    </div>
     </div>
     <div class="row" style="margin-bottom:10px">
     <?php
