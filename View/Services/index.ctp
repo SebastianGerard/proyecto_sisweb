@@ -2,7 +2,7 @@
 <?php
 $this->layout = 'login'
 $user = $this->Session->read('User');
-if($user['users']['rol']!='Admin')
+if($user!=null && $user['users']['rol']!='Admin')
 $this->redirect('/proyecto_sisweb');
 ?>
 <h1>All services of client:</h1>

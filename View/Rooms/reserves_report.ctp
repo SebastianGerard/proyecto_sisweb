@@ -2,7 +2,7 @@
 
 $this->layout= "login";
 $user = $this->Session->read('User');
-if($user['users']['rol']!='Admin')
+if($user!=null && $user['users']['rol']!='Admin')
 $this->redirect('/proyecto_sisweb');
 require('../lib/fpdf17/fpdf.php');
 	// Simple table
