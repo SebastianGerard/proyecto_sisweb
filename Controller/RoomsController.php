@@ -71,7 +71,7 @@ public function reserve($id=null)
             
             if($start<=$end)
             {
-                $collitions= $this->Reserve->find('all',array('conditions'=>"room_id=$id and ((STR_TO_DATE('$start',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$start',  '%Y-%m-%d' )<=last_day) or (STR_TO_DATE('$end',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$end',  '%Y-%m-%d' )<=last_day))"));
+                $collitions= $this->Reserve->find('all',array('conditions'=>"room_id=$id and ((STR_TO_DATE('$start',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$start',  '%Y-%m-%d' )<=last_day) or (STR_TO_DATE('$end',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$end',  '%Y-%m-%d' )<=last_day) or (STR_TO_DATE('$start',  '%Y-%m-%d' )<=first_day and STR_TO_DATE('$end',  '%Y-%m-%d' )>=first_day) or (STR_TO_DATE('$start',  '%Y-%m-%d' )<=last_day and STR_TO_DATE('$end',  '%Y-%m-%d' )>=last_day) )"));
                 $number=count($collitions);
                 if($number==0)
                 {

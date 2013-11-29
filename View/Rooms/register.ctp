@@ -56,7 +56,7 @@ if($this->Form->isFieldError('price'))
       }
       else
          echo '<div class="form-group">';
-echo $this->Form->input('price',array('errorMessage'=>false,'class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+echo $this->Form->input('price',array('errorMessage'=>false,'maxlength'=>'5','class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 echo '</div>';
 
 if($this->Form->isFieldError('capacity')) 
@@ -67,7 +67,7 @@ if($this->Form->isFieldError('capacity'))
       }
       else
          echo '<div class="form-group">';
-echo $this->Form->input('capacity',array('errorMessage'=>false,'class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
+echo $this->Form->input('capacity',array('errorMessage'=>false,'maxlength'=>'5','class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));
 echo '</div>';
 
 
