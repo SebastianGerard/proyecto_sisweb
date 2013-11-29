@@ -58,8 +58,6 @@ class UsersController extends AppController {
             $this->User->create();
             $this->User->set($this->data);
             
-                $var = $this->request->data["User"]["password"];
-                $this->request->data["User"]["password"] = MD5( $var);
                 if($this->User->save($this->request->data))
                 { 
                    
@@ -148,6 +146,35 @@ class UsersController extends AppController {
     public function decodeString($str){
         $str=base64_decode($str); //apply base64 first and then reverse the string}
      return $str;
+    }
+
+    function edit($id = null) {
+        $this->User->id = $id;
+        if ($this->request->is('get')) {
+            $this->request->data = $this->User->read();
+            $this->request->data['User']['newpassword'] = $this->request->data['User']['password'] ;
+            } else {
+            $this->request->data['User']['newpassword'] = $this->request->data['User']['password'] ;
+            echo $this->request->data['User']['newpassword']. "; ";
+            echo $this->request->data['User']['password'];
+        
+            if ($this->User->save($this->request->data)) {
+                $this->Session->setFlash('Data user has been updated.');
+                $this->redirect(array('action' => 'index'));
+            }
+            else
+            {
+                 foreach ($this->User->validationErrors as $key=>$value) {
+                     $this->Session->setFlash($key." ");
+                     foreach ($value as $key2=>$value2) {
+                     $this->Session->setFlash($key2." ".$value2);
+                     
+                 }
+                 }
+                
+                 
+            }
+        }
     }
 }
 

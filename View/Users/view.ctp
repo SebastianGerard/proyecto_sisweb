@@ -35,6 +35,18 @@ $this->layout = "login";
             array('controller' => 'services', 'action' => 'add', $user['User']['id'])); ?>
                 </div>
                 <?php } ?>
+
+
+                <div class="row" align="right">
+                    <?php 
+                        $userSession = $this->Session->read('User');
+                        if($user['User']['username'] == $userSession['users']['username'])
+                        {
+                            echo $this->Html->link("Edit",
+                            array('controller' => 'users', 'action' => 'edit', $user['User']['id']));
+                        }
+                    ?>
+                </div>
                 
             </div>
         </div>
