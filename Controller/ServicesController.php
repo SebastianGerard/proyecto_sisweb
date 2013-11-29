@@ -30,6 +30,12 @@ class ServicesController extends AppController {
         else
         $this->set('register');
     }
+
+    function report()
+    {   
+        $services = $this->Service->query('Select users.name, users.lastname,count(*)as used_services, sum(amount) as total_money  from services,users where services.user_id=users.id group by user_id ORDER BY total_money DESC' );
+        $this->set('services',$services);
+    }
 }
 
 ?>
