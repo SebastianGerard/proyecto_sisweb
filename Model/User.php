@@ -112,7 +112,7 @@ class User extends AppModel {
     function identicalFieldValues( $field=array(), $compare_field=null )  
     { 
         foreach( $field as $key => $value ){ 
-            $v1 = $value; 
+            $v1 = MD5($value);
             $v2 = $this->data[$this->name][ $compare_field ];       
             $v2 = MD5($v2);
             if($v1 !== $v2) { 
