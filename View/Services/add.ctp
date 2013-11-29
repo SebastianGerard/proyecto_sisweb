@@ -27,10 +27,39 @@ function validate(evt) {
 			<div class="row">
 					<?php 
 						echo $this->Form->create('Service');
-						echo $this->Form->input('name',array('class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-3 control-label','align'=>'right','between'=>'<div class="form-group">','after'=>'div')));
-						echo $this->Form->input('detail',array('type'=>'text','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-3 control-label','align'=>'right','between'=>'<div class="form-group">','after'=>'div')));
-						echo $this->Form->input('amount',array('type'=>'text','class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-3 control-label','align'=>'right','between'=>'<div class="form-group">','after'=>'div')));
-						
+						if($this->Form->isFieldError('name')) 
+					      {
+					      echo '<div class="col-lg-4"></div>';
+					      echo '<div class="form-group has-error row " align="left">';
+					      echo     '<label class="control-label" for="inputError">'. $this->Form->error("name").'</label>';
+					      }
+					      else
+					         echo '<div class="form-group">';  
+      
+						echo $this->Form->input('name',array('errorMessage' => false,'class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('align'=>'right','class'=>'col-lg-3 control-label','align'=>'right','between'=>'<div class="form-group">','after'=>'div')));
+						echo '</div>';
+
+						if($this->Form->isFieldError('detail')) 
+					      {
+					      echo '<div class="col-lg-4"></div>';
+					      echo '<div class="form-group has-error row " align="left">';
+					      echo     '<label class="control-label" for="inputError">'. $this->Form->error("detail").'</label>';
+					      }
+					      else
+					         echo '<div class="form-group">';  
+						echo $this->Form->input('detail',array('errorMessage' => false,'type'=>'text','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('align'=>'right','class'=>'col-lg-3 control-label','align'=>'right','between'=>'<div class="form-group">','after'=>'div')));
+						echo '</div>';
+
+						if($this->Form->isFieldError('amount')) 
+					      {
+					      echo '<div class="col-lg-4"></div>';
+					      echo '<div class="form-group has-error row " align="left">';
+					      echo     '<label class="control-label" for="inputError">'. $this->Form->error("amount").'</label>';
+					      }
+					      else
+					         echo '<div class="form-group">';  
+						echo $this->Form->input('amount',array('errorMessage' => false,'type'=>'text','class'=>'form-control','onkeypress'=>'validate(event)','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('align'=>'right','class'=>'col-lg-3 control-label','align'=>'right','between'=>'<div class="form-group">','after'=>'div')));
+						echo '</div>';
 					?>
 					<div class="col-lg-3" align="right"><b>Date: </b></div>
 					<div class="col-lg-8">
