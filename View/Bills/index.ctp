@@ -1,11 +1,11 @@
 <?php
-//$this->layout= "login";
-//$user = $this->Session->read('User');
-//if($user!=null && $user['users']['rol']!='Admin')
-//$this->redirect('/proyecto_sisweb');
+$this->layout= "login";
+$user = $this->Session->read('User');
+if($user!=null && $user['users']['rol']!='Admin')
+$this->redirect('/proyecto_sisweb');
 require('../lib/fpdf17/fpdf.php');
 	// Simple table
-function BasicTable($services,$pdf,$user)
+function BasicTable($services,$pdf,$rol)
 {
     // Header
     $pdf->SetFont('Arial','B',12);
@@ -22,11 +22,11 @@ function BasicTable($services,$pdf,$user)
         
 		$pdf->Cell(20,6,$service['Service']['name'],1);
 		$pdf->Cell(35,6,$service['Service']['date'],1);
-        if($user['users']['rol']="Gold")
+        if($rol=="Gold")
         {
 
             $price=$service['Service']['amount'];
-            $off = $price - $price*0.2;
+            $off = ($price - $price*0.2);
             $pdf->Cell(25,6,$off,1);
         }
         else
@@ -40,7 +40,7 @@ function BasicTable($services,$pdf,$user)
     }
     return $total;
 }
-$user = $this->Session->read('User');
+$pedro = $this->Session->read('User');
 $pdf = new FPDF('P','mm',array(100,450));
 $pdf->SetFont('Arial','B',16);
 $pdf->AddPage();
@@ -66,15 +66,15 @@ $pdf->Cell(5,5,"Date:".$date,0);
 $pdf->Ln();
 $pdf->Ln();
 $pdf->Ln();
-$total=BasicTable($services,$pdf,$user);
+$total=BasicTable($services,$pdf,$user['User']['rol']);
 $pdf->Ln();
-if($user['users']['rol']="Gold")
+if($user['User']['rol']=="Gold")
 {
     $pdf->Cell(5,5,"Total without discount:".$total,0);
     $pdf->Ln();
     $pdf->Cell(5,5,"Discount:".$total*0.2,0);
     $pdf->Ln();
-    $pdf->Cell(5,5,"Total:".$total - $total*0.2,0);
+    $pdf->Cell(5,5,"Total:".($total - $total*0.2),0);
 }
 else
 {
