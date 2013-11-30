@@ -39,9 +39,11 @@ echo $this->Form->input('image',array('type'=>'file','accept'=>'.jpg','class'=>'
 
 ?>
 				 
-<br>
+
+<div class="row" align="center">
 
 <input type='submit' value="Register" class = 'btn btn-primary'/>
+</div>
 </fieldset>
 </form>
 </div>

@@ -54,5 +54,5 @@ $pdf->Cell(5,5,"Clients  with more reservations ",0);
 $pdf->Ln();
 $pdf->Cell(5,5,"in the hotel history",0);
 $pdf->Ln();
-$pdf->Output("file.pdf");
+$pdf->Output("file.pdf","D");
 ?>

@@ -5,7 +5,9 @@ if($user!=null && $user['users']['rol']!='Admin')
 $this->redirect('/proyecto_sisweb');
 
 ?>
-
+<div align="center">
+<legend>Poke-reserves</legend>
+</div>
 <table class="table table-condensed table-striped table-hover">
     <tr>
         <th>User</th>

@@ -37,7 +37,8 @@ $this->layout = "login";
                 <?php } ?>
 
 
-                <div class="row" align="right">
+                <div class="row">
+                    <div class="col-lg-5"></div>
                     <?php 
                         $userSession = $this->Session->read('User');
                         if($user['User']['username'] == $userSession['users']['username'])

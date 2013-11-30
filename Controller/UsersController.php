@@ -21,7 +21,6 @@ class UsersController extends AppController {
         {
             if(isset($_POST["buscarbtn"]))
             {
-                $this->Session->setFlash("lolza"); 
                 $var = $_POST["buscartxt"];
                 $this->set('users',$this->User->find('all',array('conditions'=>"name LIKE '%$var%' or username LIKE '%$var%' or lastname LIKE '%$var%'")));
             }
@@ -113,7 +112,7 @@ class UsersController extends AppController {
     { 
         $this->Session->destroy('user'); 
         $this->Session->setFlash('You\'ve successfully logged out.'); 
-        $this->redirect('login'); 
+        $this->redirect('/pages/home'); 
     } 
 
     function __validateLoginStatus() 

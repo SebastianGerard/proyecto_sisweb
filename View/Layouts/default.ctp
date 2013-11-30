@@ -44,7 +44,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 	?>
 	<div id="container">
 		<div id="header">
-			<div class="navbar navbar-inverse" role="navigation">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -129,26 +129,30 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 <?php 	echo $this->Form->create('User',array('action'=>'login')); ?>
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content">
+                    <div class="modal-content" align="center">
                     	 <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                              
+                              <marquee direction="right"><img src="/proyecto_sisweb/webroot/img/bill_image.jpg" width="40" /></marquee>
                           </div>
                           
-                          	<legend>Log in to poke-system</legend>
+                          	<h2>Log in to poke-system</h2>
+                          	<br>
 
 						<html>
 							<body>
 							<div class="users form">
-								<div class="row" style="padding:5;">
-									<?php 
+								<div class="row" >
+								<div class="col-lg-2"></div>
+								<?php 
 
-										echo $this->Form->input('username',array('class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));?>
-										</div>
-										<div class="row" style="padding:5;">
-										<?php
-										echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array('class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));?>
-										</div>
+									echo $this->Form->input('username',array('placeholder'=>'Username','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>false));?>
+									</div>
+									<br>
+									<div class="row">
+								<div class="col-lg-2"></div>
+									<?php
+									echo $this->Form->input('password',array('placeholder'=>'Password','type'=>'password','class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>false));?>
+									</div>
 									
 							</div>
 

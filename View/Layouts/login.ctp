@@ -44,7 +44,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 	?>
 	<div id="container">
 		<div id="header">
-			<div class="navbar navbar-inverse" role="navigation">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -52,7 +52,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Poke-Hotel</a>
+          <a class="navbar-brand" href="#"><img src="/proyecto_sisweb/webroot/img/appbar.pokeball.png" width="18"/> Poke-Hotel</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -72,6 +72,14 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
             </li>  
             <?php if($user['users']['rol']=='Admin') {?>           
             <li><a href="/proyecto_sisweb/accessories/register">Add accessories</a></li>
+            <li class="dropdown">
+            	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reports <b class="caret"></b></a>
+            	<ul class="dropdown-menu">
+            		<li><a href="/proyecto_sisweb/rooms/reserveseport">Reserves report</a></li>
+            		<li><a href="/proyecto_sisweb/services/report">Services report</a></li>
+
+            	</ul>
+            </li>
           	 <?php } ?>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -98,7 +106,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
         </div><!--/.nav-collapse -->
       </div>
 		</div>
-		<div id="content" style="margin-bottom:300px">
+		<div id="content" style="margin-bottom:300px;margin-top:75px">
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
 		</div>

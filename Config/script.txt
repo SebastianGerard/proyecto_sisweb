@@ -119,6 +119,6 @@ INSERT INTO posts (title,body,created)
 INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
     VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito',MD5('pedrito'),'1',"661291268", NOW(),"Admin");
 INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
-    VALUES ('Pedro', 'Pedregal','ger.sal.jo@mail.com','Jose Pol','Colombia','Medellin','445896','45689','user',MD5('pedrito'),'1',"661291268", NOW(),"Client");
+    VALUES ('Pedro', 'Pedregal','ger.sal.jo@mail.com','Jose Pol','Colombia','Medellin','445896','45689','usuario',MD5('pedrito'),'1',"661291268", NOW(),"Client");
 INSERT INTO services (user_id,name,detail,amount,date,created)
     VALUES ('1','Laundry','Lavanderia completa','50','2013-11-13 00:00:00',NOW());
