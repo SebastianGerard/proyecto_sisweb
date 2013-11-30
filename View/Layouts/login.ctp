@@ -76,8 +76,20 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
           </ul>
           <ul class="nav navbar-nav navbar-right">
           	
-          	<?php echo '<li class="active"><a href="/proyecto_sisweb/users/view/'.$user['users']['id'].'">'
-          	.$user["users"]["name"].'</a></li>'
+          	<?php 
+          		if($user['users']['rol']=="Gold")
+          		{
+
+          			echo '<li style="background:#ffd700" >
+		          						<a href="/proyecto_sisweb/users/view/'.$user['users']['id'].'">'
+			          		          	.$user["users"]["name"].'</a>
+		          		          		
+	          		          	</li>';
+	          		echo "<li style='background:#ffd700'><img src='/proyecto_sisweb/webroot/img/gold_logo.png' width='33'/></li>";
+          		}
+          		else
+	          	{echo '<li class="active"><a href="/proyecto_sisweb/users/view/'.$user['users']['id'].'">'
+	          		          	.$user["users"]["name"].'</a></li>';}
            ?>
             <li class="active"><a href="/proyecto_sisweb/users/logout">Log Out</a></li>
           </ul>

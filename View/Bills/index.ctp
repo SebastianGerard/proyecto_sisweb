@@ -1,17 +1,18 @@
 <?php
-$this->layout= "login";
-$user = $this->Session->read('User');
-if($user!=null && $user['users']['rol']!='Admin')
-$this->redirect('/proyecto_sisweb');
+//$this->layout= "login";
+//$user = $this->Session->read('User');
+//if($user!=null && $user['users']['rol']!='Admin')
+//$this->redirect('/proyecto_sisweb');
 require('../lib/fpdf17/fpdf.php');
 	// Simple table
-function BasicTable($services,$pdf)
+function BasicTable($services,$pdf,$user)
 {
     // Header
     $pdf->SetFont('Arial','B',12);
     $pdf->Cell(20,7,'Name',1);
     $pdf->Cell(35,7,'Date',1);
     $pdf->Cell(25,7,'Price',1);
+
     $pdf->Ln();
     // Data
     $pdf->SetFont('Arial','',9);
@@ -21,13 +22,25 @@ function BasicTable($services,$pdf)
         
 		$pdf->Cell(20,6,$service['Service']['name'],1);
 		$pdf->Cell(35,6,$service['Service']['date'],1);
-		$pdf->Cell(25,6,$service['Service']['amount'],1);
+        if($user['users']['rol']="Gold")
+        {
+
+            $price=$service['Service']['amount'];
+            $off = $price - $price*0.2;
+            $pdf->Cell(25,6,$off,1);
+        }
+        else
+        {
+            $pdf->Cell(25,6,$service['Service']['amount'],1);
+        }
+		
+
         $pdf->Ln();
         $total = $total + $service['Service']['amount'];
     }
     return $total;
 }
-
+$user = $this->Session->read('User');
 $pdf = new FPDF('P','mm',array(100,450));
 $pdf->SetFont('Arial','B',16);
 $pdf->AddPage();
@@ -53,9 +66,20 @@ $pdf->Cell(5,5,"Date:".$date,0);
 $pdf->Ln();
 $pdf->Ln();
 $pdf->Ln();
-$total=BasicTable($services,$pdf);
+$total=BasicTable($services,$pdf,$user);
 $pdf->Ln();
-$pdf->Cell(5,5,"Total:".$total,0);
+if($user['users']['rol']="Gold")
+{
+    $pdf->Cell(5,5,"Total without discount:".$total,0);
+    $pdf->Ln();
+    $pdf->Cell(5,5,"Discount:".$total*0.2,0);
+    $pdf->Ln();
+    $pdf->Cell(5,5,"Total:".$total - $total*0.2,0);
+}
+else
+{
+    $pdf->Cell(5,5,"Total:".$total,0);
+}
 $pdf->Ln();
 $pdf->Ln();
 $pdf->Cell(5,5,"-----------------------------------------------------------------------------",0);

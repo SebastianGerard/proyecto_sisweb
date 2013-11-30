@@ -9,7 +9,7 @@ drop table accessories;
 drop table artifacts;
 drop table reserves;
 drop table room_images;
-
+drop table gold_requests;
 
 
 /*reservas*/
@@ -57,6 +57,15 @@ CREATE TABLE users (
     username VARCHAR(30) NOT NULL,
     password VARCHAR(100) NOT NULL,
     NIT VARCHAR(50) NOT NULL,
+    status bit NOT NULL,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+
+CREATE TABLE gold_requests(
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    user_id INT UNSIGNED NOT NULL,
+    description VARCHAR(200) NULL,
     status bit NOT NULL,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL

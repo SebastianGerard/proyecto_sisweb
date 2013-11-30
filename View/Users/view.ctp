@@ -55,7 +55,7 @@ $this->layout = "login";
                 <div class="row">
                       <?php
                     $userSession = $this->Session->read('User');
-                    if($userSession['users']['rol']=='Admin' && $user['User']['rol']!='Admin' )
+                    if( $user['User']['rol']!='Admin' )
                     {
                        ?>
          
@@ -76,7 +76,27 @@ $this->layout = "login";
                         <?php endforeach; ?>
                         <?php unset($service); ?>
                     </table>
-                    <?php } ?>
+                    <?php } 
+                        if($userSession['users']['rol']=='Admin' && $user['User']['rol']=='Admin')
+                    {
+                        echo "<table class='table table-condensed table-striped table-hover'>";
+                            echo "<tr>";
+                                echo "<th> Username </th>";
+                                echo "<th colspan=3> Reason </th>";
+                            echo "</tr>";
+                            
+                            
+                            foreach ($user_requests as $key=>$user_request) {
+                                echo "<tr>";
+                                echo "<td>".$user_request['users']['username']."</td>";
+                                echo "<td>".$user_request['gold_requests']['description']."</td>";
+                                echo "<th><a href='/proyecto_sisweb/users/accept/".$user_request['users']['id']."'>Accept</a></th>";
+                                echo "<th><a href='/proyecto_sisweb/users/deny/".$user_request['users']['id']."'>Deny</a></th>";
+                                echo "</tr>";
+                            }
+                            echo "</table>";
+                    }
+                    ?>
                 </div>
                 
 
