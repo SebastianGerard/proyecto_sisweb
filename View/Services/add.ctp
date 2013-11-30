@@ -18,6 +18,7 @@ function validate(evt) {
 
 }
 </script>
+.
 <div class="users form">
 	<div class="col-lg-3">
 	</div>

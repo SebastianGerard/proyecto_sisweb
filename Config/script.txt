@@ -119,6 +119,16 @@ INSERT INTO posts (title,body,created)
 INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
     VALUES ('Pedro', 'Pedregal','ger.sal.jo@gmail.com','Jose Pol','Colombia','Medellin','445896','45689','pedrito',MD5('pedrito'),'1',"661291268", NOW(),"Admin");
 INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
+    VALUES ('Lionel', 'Messi','leomessi@gmail.com','Rosario','Argentina','Rosario','445896','45689','messigold',MD5('messigold'),'1',"78945636", NOW(),"Gold");
+
+INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
+    VALUES ('Diego', 'Maradona','Maradona@gmail.com','Rosario','Argentina','Rosario','456789','159753','maradonagold',MD5('maradonagold'),'1',"78945636", NOW(),"Gold");
+
+INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
+    VALUES ('Marcelo', 'Moreno','martinsgilmoreno@gmail.com','Santa Cruz','Bolivia','Santa Cruz','753951','369877','morenoclient',MD5('morenoclient'),'1',"4569853", NOW(),"Client");
+
+INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
+    VALUES ('Diego', 'Forlan','diegoforlan@gmail.com','Montevideo','Uruguay','Montevideo','4569875','369874123','forlanclient',MD5('forlanclient'),'1',"963214589", NOW(),"Client");
+
+INSERT INTO users (name,lastname,email,address,country,city,phone,cellphone,username,password,status,NIT,created,rol)
     VALUES ('Pedro', 'Pedregal','ger.sal.jo@mail.com','Jose Pol','Colombia','Medellin','445896','45689','usuario',MD5('pedrito'),'1',"661291268", NOW(),"Client");
-INSERT INTO services (user_id,name,detail,amount,date,created)
-    VALUES ('1','Laundry','Lavanderia completa','50','2013-11-13 00:00:00',NOW());

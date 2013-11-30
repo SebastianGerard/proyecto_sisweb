@@ -10,7 +10,7 @@ function BasicTable($topUsers,$pdf)
 {
     // Header
     $pdf->SetFont('Arial','B',12);
-    $pdf->Cell(20,7,'User',1);
+    $pdf->Cell(30,7,'User',1);
     $pdf->Cell(35,7,'Amount',1);
     $pdf->Ln();
     // Data
@@ -19,7 +19,7 @@ function BasicTable($topUsers,$pdf)
     foreach($topUsers as $user)
     {
         
-		$pdf->Cell(20,6,$user['User']['username'],1);
+		$pdf->Cell(30,6,$user['User']['username'],1);
 		$pdf->Cell(35,6,$user['0']['cantidad'],1);
           $pdf->Ln();
   

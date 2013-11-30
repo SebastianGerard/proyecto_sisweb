@@ -57,12 +57,16 @@ class UsersController extends AppController {
 
             $this->User->create();
             $this->User->set($this->data);
-            
+            $this->request->data['User']['password'] = MD5($this->request->data['User']['password']);
+            $this->request->data['User']['newpassword'] = MD5($this->request->data['User']['newpassword']);
+            $this->request->data['User']['rol'] = "Client";
+            $this->request->data['User']['NIT'] = "0000000";
+            $this->request->data['User']['status'] = 1;
                 if($this->User->save($this->request->data))
                 { 
                    
-                    App::uses('CakeEmail','Network/Email'); 
-                    $this->send_mail($this->request->data['User']['email'],$this->request->data['User']['name'],$this->User->getLastInsertId());
+                   // App::uses('CakeEmail','Network/Email'); 
+                    //$this->send_mail($this->request->data['User']['email'],$this->request->data['User']['name'],$this->User->getLastInsertId());
                     $this->redirect(array("controller"=>"Pages",
                         "action"=>"display"));
                 }

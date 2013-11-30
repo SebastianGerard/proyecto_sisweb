@@ -197,6 +197,20 @@ echo $this->Form->create('User');
       ?>
     </div>
      </div>
+     <div class="row"  style="margin-bottom:10px">
+      <?php if($this->Form->isFieldError('NIT')) 
+      {
+      echo '<div class="col-lg-4"></div>';
+      echo '<div class="form-group has-error row " align="left">';
+      echo     '<label class="control-label" for="inputError">'. $this->Form->error("NIT").'</label>';
+      }
+      else
+         echo '<div class="form-group">';  
+      ?>
+      <?php
+      echo $this->Form->input('NIT',array('errorMessage' => false,'class'=>'form-control','between' => '<div class="col-lg-8">','after'=>'</div>','label'=>array( 'align'=>'right','class'=>'col-lg-4 control-label','between'=>'<div class="form-group">','after'=>'div')));?>
+    </div>
+  </div>
  
   </div>
 </div>

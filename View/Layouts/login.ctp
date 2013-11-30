@@ -69,13 +69,21 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 			      <li><a href="/proyecto_sisweb/rooms">View rooms</a></li>
 			    
               </ul>
-            </li>  
+            </li> 
+            <?php 
+            	if($user['users']['rol']=="Client")
+            	{
+            ?>
+            <li>
+            	<a href="/proyecto_sisweb/users/gold">Gold Request</a>
+            </li> 
+            <?php }?>
             <?php if($user['users']['rol']=='Admin') {?>           
             <li><a href="/proyecto_sisweb/accessories/register">Add accessories</a></li>
             <li class="dropdown">
             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reports <b class="caret"></b></a>
             	<ul class="dropdown-menu">
-            		<li><a href="/proyecto_sisweb/rooms/reserveseport">Reserves report</a></li>
+            		<li><a href="/proyecto_sisweb/rooms/reservesReport">Reserves report</a></li>
             		<li><a href="/proyecto_sisweb/services/report">Services report</a></li>
 
             	</ul>
