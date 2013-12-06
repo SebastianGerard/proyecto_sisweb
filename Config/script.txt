@@ -31,6 +31,7 @@ CREATE TABLE services (
     name  VARCHAR(50) NOT NULL,
     detail VARCHAR(300) NULL,
     amount INT UNSIGNED NOT NULL,
+    active BIT DEFAULT 1,
     date DATETIME NOT NULL,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL

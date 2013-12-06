@@ -41,7 +41,11 @@ $this->redirect('/proyecto_sisweb');
             ?>
         </td>
         <td>
-          <?php $actual=date('Y-m-d'); if(!$reservation['Reserve']['checkin'] && $actual>=$reservation['Reserve']['first_day'] && $actual<=$reservation['Reserve']['last_day'])  echo $this->Html->link("CheckIn","checkin/".$reservation['Reserve']['id'],array('onClick'=>'return confirm("are you sure you want checkin this user");'));
+
+          <?php
+
+           $actual=date("Y-m-d"); if(!$reservation['Reserve']['checkin'] && $actual>=$reservation['Reserve']['first_day'] && $actual<=$reservation['Reserve']['last_day'])  echo $this->Html->link("CheckIn","checkin/".$reservation['Reserve']['id'],array('onClick'=>'return confirm("are you sure you want checkin this user");'));
+     
             ?>
         </td>
      

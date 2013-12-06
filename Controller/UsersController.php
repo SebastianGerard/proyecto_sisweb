@@ -48,6 +48,8 @@ class UsersController extends AppController {
     {
         //modelos  utilizar
         Controller::loadModel('Service');
+        Controller::loadModel('Reserve');
+    
         //recupera row del usuario
         $this->User->id = $id;
         //verifica que el usuario con el id especificado exista
@@ -56,9 +58,13 @@ class UsersController extends AppController {
         }
         //envia este usuario a la vista
         $this->set('user', $this->User->read(null, $id));
+         $actual=date("Y-m-d");
         //envia a la vista todos los servicios de este usuario
-        $services=$this->User->Service->find('all',array('conditions'=>'Service.user_id='.$id));
+        $reserves=$this->Reserve->find('all',array('conditions'=>"user_id=".$id." and checkin=1 and STR_TO_DATE('$actual',  '%Y-%m-%d' )>=first_day and STR_TO_DATE('$actual',  '%Y-%m-%d' )<=last_day"));
+         $this->set('cantidad',count($reserves));
+        $services=$this->User->Service->find('all',array('conditions'=>'Service.user_id='.$id.' and active=1'));
         $this->set('services',$services);
+
         //en casod e ser admin enviara a la vista las solicitudes de usuario gold
         $this->set('user_requests',$this->User->query("SELECT users.id, users.username, gold_requests.description, gold_requests.status FROM users, gold_requests WHERE users.id = gold_requests.user_id AND gold_requests.status = 0"));
     }

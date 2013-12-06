@@ -31,7 +31,7 @@ $this->layout = "login";
                     {
                 ?>
                 <div class="row" align="center">
-                    <?php echo $this->Html->link("Register new service",
+                    <?php if($cantidad>0) echo $this->Html->link("Register new service",
             array('controller' => 'services', 'action' => 'add', $user['User']['id'])); ?>
                 </div>
                 <?php } ?>
