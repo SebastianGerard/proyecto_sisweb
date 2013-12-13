@@ -29,6 +29,18 @@ public function index() {
 		$rooms= $this->Room->find('all');
         $this->set('rooms', $rooms);
 	}
+public function checkin($id=null)
+{
+     Controller::loadModel('Reserve');
+    $this->Reserve->id=$id;
+    $this->request->data = $this->Reserve->read();
+     $this->request->data['Reserve']['checkin']=1;
+        if ($this->Reserve->save($this->request->data)) {
+                $this->Session->setFlash('Reserve has been updated.');
+                $this->redirect(array('action' => 'index'));
+            }
+
+}
 public function register()
 {
 	  if($this->request->is('post'))

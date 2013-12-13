@@ -19,6 +19,7 @@ CREATE TABLE reserves (
     room_id INT UNSIGNED NOT NULL,
     first_day DATE NOT NULL, 
     last_day DATE NOT NULL,
+    checkin BIT DEFAULT 0,
     created DATETIME DEFAULT NULL,
     modified DATETIME DEFAULT NULL
 );

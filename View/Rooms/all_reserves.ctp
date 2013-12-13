@@ -14,7 +14,8 @@ $this->redirect('/proyecto_sisweb');
         <th>Room</th>
         <th>Start</th>
         <th>End</th>
- 		<th></th>       
+ 		    <th></th>  
+        <th></th>        
     </tr>
 
  
@@ -33,7 +34,15 @@ $this->redirect('/proyecto_sisweb');
      	  <?php echo $reservation['Reserve']['last_day']; ?>
         </td>
         <td>
-        	<?php echo $this->Html->link("remove","removeReserve/".$reservation['Reserve']['id'],array('onClick'=>'return confirm("are you sure you want delete this reservation");')); ?>
+        	<?php
+          if(!$reservation['Reserve']['checkin'])
+           echo $this->Html->link("remove","removeReserve/".$reservation['Reserve']['id'],array('onClick'=>'return confirm("are you sure you want delete this reservation");'));
+
+            ?>
+        </td>
+        <td>
+          <?php $actual=date('Y-m-d'); if(!$reservation['Reserve']['checkin'] && $actual>=$reservation['Reserve']['first_day'] && $actual<=$reservation['Reserve']['last_day'])  echo $this->Html->link("CheckIn","checkin/".$reservation['Reserve']['id'],array('onClick'=>'return confirm("are you sure you want checkin this user");'));
+            ?>
         </td>
      
     </tr>
